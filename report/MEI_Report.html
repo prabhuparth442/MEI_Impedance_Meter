@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>MEI Project Report: Digital Impedance Meter</title>
+<style>
+@page { size: A4; margin: 2cm; }
+body { font-family: "Liberation Serif", "Times New Roman", serif; font-size: 11pt; line-height: 1.35; }
+h1 { font-size: 17pt; margin-bottom: 2pt; }
+h2 { font-size: 13pt; margin-top: 14pt; border-bottom: 1px solid #888; }
+h3 { font-size: 11.5pt; margin-top: 10pt; }
+table { border-collapse: collapse; margin: 6pt 0; }
+td, th { border: 1px solid #666; padding: 2pt 5pt; font-size: 10pt; vertical-align: top; }
+th { background: #e6e6e6; }
+.cap { font-size: 9.5pt; font-style: italic; margin-top: 2pt; }
+.small { font-size: 9.5pt; }
+</style></head><body>
+
+<h1>Digital Impedance Meter using a Raspberry Pi Pico 2</h1>
+<p>Measurements and Electrical Instruments (MEI) course project, IIT Bhubaneswar<br>
+Name: Prabhuparth Choudhar &nbsp;|&nbsp; Roll No.: 24EE01065 &nbsp;|&nbsp; Date: 13 November 2026</p>
+
+<h2>1. Objective</h2>
+<p>Build an instrument that measures an unknown impedance Z<sub>x</sub> (R, L or C) at 125, 250, 500 and 1000 Hz, using a Raspberry Pi Pico 2, a reference resistor, op-amp buffers and software (lock-in detection and calibration). Check the design in simulation first, then build it on a breadboard and test it.</p>
+<p>Scope of this report: one circuit (a resistive divider with a reference resistor), simulated in LTspice, built on a breadboard, and tested with resistors and capacitors.</p>
+
+<h2>2. Measurement principle</h2>
+<p>A reference resistor R<sub>ref</sub> is in series with the unknown Z<sub>x</sub>. The Pico drives V<sub>1</sub> (sine, PWM through a filter and buffer). The other end of Z<sub>x</sub> is held at V<sub>2</sub> = 1.65 V DC. The ADC reads V<sub>1</sub> and the middle node V<sub>mid</sub>.</p>
+<p>Current: I = (V<sub>1</sub> &minus; V<sub>mid</sub>) / R<sub>ref</sub>. With H = V<sub>mid</sub> / V<sub>1</sub> (complex ratio of the AC parts, V<sub>2</sub> is DC so it drops out):</p>
+<p style="text-align:center">Z<sub>x</sub> = R<sub>ref</sub> &middot; H / (1 &minus; H)</p>
+<p>R = Re(Z<sub>x</sub>), X = Im(Z<sub>x</sub>), L = X/&omega;, C = &minus;1/(&omega;X), &omega; = 2&pi;f. The result is a ratio, so the exact signal amplitude and ADC reference do not matter, only R<sub>ref</sub> and the ADC channel match do. Accuracy is best when |Z<sub>x</sub>| is close to R<sub>ref</sub>, so R<sub>ref</sub> is selectable (100 &Omega;, 1 k&Omega;, 9.9 k&Omega;, 100.4 k&Omega; measured values; one fitted at a time).</p>
+
+<h2>3. Hardware circuit</h2>
+<img src="fig/hw_circuit.png" width="640" height="331">
+<p class="cap">Figure 1. Circuit as built. Full-size drawing: <i>hardware/mei_circuit_divider.pdf</i>.</p>
+<ul>
+<li><b>Drive:</b> GP14 (PWM A) &rarr; two-stage RC filter (1 k&Omega; + 100 nF, twice) &rarr; U1A follower &rarr; V<sub>1</sub>.</li>
+<li><b>Return:</b> GP15 (PWM B) &rarr; same filter &rarr; U1B follower &rarr; V<sub>2</sub> (about 1.65 V DC).</li>
+<li><b>Divider:</b> V<sub>1</sub> &ndash; R<sub>ref</sub> &ndash; V<sub>mid</sub> &ndash; Z<sub>x</sub> &ndash; V<sub>2</sub>.</li>
+<li><b>Sensing:</b> ADC0 (GP26) reads V<sub>1</sub> through 100 &Omega; + 1 nF. ADC1 (GP27) reads V<sub>mid</sub> through the U1C buffer and 100 &Omega; + 1 nF. ADC2 was used only for loopback tests.</li>
+<li><b>Op-amp:</b> MCP6004 (quad, rail-to-rail), supplied from the Pico 3V3. AGND is the star ground. GPIO23 is driven high to put the Pico supply in PWM mode (lower ADC noise).</li>
+<li><b>Measured parts (multimeter):</b> R1 = R2 = 1.00 k&Omega;, R3 = R4 = 0.99 k&Omega;, R<sub>ref</sub> = 100, 1000, 9900, 100400 &Omega;. The 1 nF ADC capacitors were not measured.</li>
+</ul>
+
+<h3>Firmware and software</h3>
+<ul>
+<li>MicroPython on the Pico. The sine is made by changing PWM duty in 5 to 40 steps per cycle. At 500 Hz it is 10 steps of 200 &micro;s.</li>
+<li>ADC0 and ADC1 are read one after the other, not at the same instant. Each sample has a microsecond timestamp, and the phasors are computed with the real times (this removes the skew, about 19 &micro;s or 3.5&deg; at 500 Hz).</li>
+<li>Lock-in: the host computes complex V<sub>1</sub> and V<sub>mid</sub> by correlation with sine and cosine at the drive frequency, then H and Z<sub>x</sub>.</li>
+<li>Calibration (per R<sub>ref</sub> and frequency): H<sub>meas</sub> = k &middot; H<sub>true</sub> + c, with complex k and c fitted from a short, an open circuit and a known resistor.</li>
+<li>Model identification: the tool fits R, L, C, R+L, R+C, R&#8741;C and R&#8741;L at all four frequencies and reports the simplest model whose fit error is under 2 %.</li>
+<li>Code: <i>firmware/imeter.py</i> (main tool), <i>lockin.py</i>, <i>analyze.py</i>, <i>dc_check.py</i>, <i>config.py</i>, <i>cal.json</i>.</li>
+</ul>
+
+<h2>4. Simulation</h2>
+<h3>4.1 LTspice model</h3>
+<img src="fig/sim_circuit.png" width="640" height="332">
+<p class="cap">Figure 2. Circuit as simulated in LTspice (file <i>simulation/ltspice/Model1.asc</i>). Full-size drawing: <i>simulation/ltspice/mei_circuit_ltspice.pdf</i>.</p>
+<ul>
+<li>The Pico pins are replaced by sources: V<sub>A</sub> = 1.65 V DC + 0.9 V AC at 500 Hz, V<sub>B</sub> = 1.65 V DC, each with 40 &Omega; pin resistance. ADC pins are plain nodes (<i>adc0</i>, <i>adc1</i>), with no sampling model.</li>
+<li>Same filters, buffers, R<sub>ref</sub> and ADC input networks as the hardware. V<sub>dd</sub> = 3.3 V.</li>
+<li>Op-amp: simple macro-model (<i>.subckt opamp2</i>): A<sub>vol</sub> = 100 k, GBW = 1 MHz, slew 0.6 V/&micro;s, output swing within 25 mV of the rails, R<sub>out</sub> = 100 &Omega;.</li>
+<li>Test DUT: R<sub>d</sub> = 100 &Omega; in series with L<sub>d</sub> = 10 mH. True Z<sub>x</sub> = 100 + j31.416 &Omega; at 500 Hz.</li>
+<li>Analysis: <i>.ac lin 1 500 500</i>, stepped over R<sub>ref</sub> = 100, 1 k, 10 k, 100 k. Z<sub>x</sub> is computed from the results as R<sub>ref</sub> &middot; V(adc1) / (V(adc0) &minus; V(adc1)).</li>
+</ul>
+
+<h3>4.2 LTspice results (500 Hz, from <i>Model1.raw</i>)</h3>
+<table width="100%" border="1" cellpadding="4" cellspacing="0">
+<tr><th>R<sub>ref</sub></th><th>|V(adc0)|</th><th>|V(adc1)|</th><th>Z<sub>x</sub> computed (&Omega;)</th><th>R error</th><th>X error</th></tr>
+<tr><td>100 &Omega;</td><td>0.6820 V</td><td>0.3531 V</td><td>100.047 + j31.370</td><td>+0.047 %</td><td>&minus;0.15 %</td></tr>
+<tr><td>1 k&Omega;</td><td>0.6820 V</td><td>0.0650 V</td><td>100.020 + j31.411</td><td>+0.020 %</td><td>&minus;0.016 %</td></tr>
+<tr><td>10 k&Omega;</td><td>0.6820 V</td><td>0.0071 V</td><td>100.017 + j31.415</td><td>+0.017 %</td><td>&minus;0.003 %</td></tr>
+<tr><td>100 k&Omega;</td><td>0.6820 V</td><td>0.0007 V</td><td>100.017 + j31.416</td><td>+0.017 %</td><td>0.000 %</td></tr>
+</table>
+<p>True value: 100 + j31.416 &Omega;. Remaining error is the finite op-amp bandwidth (GBW 1 MHz) and the 100 &Omega; + 1 nF ADC input filters. The error is largest for R<sub>ref</sub> = 100 &Omega;.</p>
+<p>The same table shows the signal level problem: V(adc0) is 0.68 V peak, not the 0.9 V set at the source, because the two-stage RC filter attenuates 500 Hz (gain about 0.77). With R<sub>ref</sub> = 100 k&Omega; and Z<sub>x</sub> = 105 &Omega;, V(adc1) is 0.7 mV, below the ADC noise of about 0.5 mV rms for a single sample. In the simulation there is no ADC noise, so this does not show up in the numbers. R<sub>ref</sub> should be chosen close to |Z<sub>x</sub>|.</p>
+
+<h3>4.3 Other simulations done</h3>
+<ul>
+<li><b>Stage 0</b> (Python phasor Monte Carlo, <i>simulation/stage0/</i>): showed that resistor tolerance sets the accuracy, that the divider reading is better than the bridge-difference reading, that skew between ADC channels must be compensated, and that ADC channel gain mismatch should be below about 0.02 % after loopback.</li>
+<li><b>Co-simulation</b> (<i>simulation/cosim/</i>): a Python model of the Pico running inside an ngspice transient simulation (libngspice), with 12-bit ADC at 480 kS/s, noise, and real 150 kHz PWM. It was run for a <b>Wheatstone</b> module, not for the built divider. Results with 0.1 % resistors: reading error 0.10 % (std) for the bridge reading and 0.06 % for the divider reading. With 1 % resistors: 1.05 % and 0.62 %. Pin resistance and ADC noise had no visible effect, because the measurement is a ratio. Not modelled: ADC INL/DNL, sampling kick-back, strays, temperature. Datasheet values used: RP2350 ADC and GPIO tables, Microchip MCP6004 macro-model.</li>
+</ul>
+
+<h2>5. Hardware results</h2>
+<h3>5.1 ADC and front-end checks (11 Nov 2026)</h3>
+<table width="100%" border="1" cellpadding="4" cellspacing="0">
+<tr><th>Check</th><th>Result</th></tr>
+<tr><td>ADC offset, input shorted to AGND (2000 samples)</td><td>ADC0 4.54 mV, ADC1 4.66 mV, ADC2 4.60 mV; noise 0.51 to 0.58 mV rms</td></tr>
+<tr><td>DC loopback, same node on all three channels (50 % duty)</td><td>ADC0 1647.08 mV, ADC1 1647.11 mV, ADC2 1647.91 mV</td></tr>
+<tr><td>Gain from linear fits vs PWM duty (10 to 90 %)</td><td>ADC1 is +0.055 % and ADC2 is +0.082 % relative to ADC0. A correction of 1/1.00055 is applied to ADC1 (DC only).</td></tr>
+<tr><td>Fixed series offset in the Z<sub>x</sub> path (DC differential test)</td><td>About 25 to 30 &Omega; extra. This is added to the reading and was removed by the short-circuit calibration. Source not identified (contacts, binding posts or the V<sub>2</sub> buffer).</td></tr>
+<tr><td>Open-circuit amplitude of H (R<sub>ref</sub> 9.9 k&Omega;)</td><td>0.9991 / 0.9970 / 0.9878 / 0.9531 at 125 / 250 / 500 / 1000 Hz (ideal 1). Repeatable, phase near 0. Removed by calibration.</td></tr>
+<tr><td>Short circuit, H (R<sub>ref</sub> 9.9 k&Omega;)</td><td>Below 0.0008 (under 8 &Omega;)</td></tr>
+</table>
+
+<h3>5.2 Bench test: 12 runs (12 Nov 2026, recorded in the demo video)</h3>
+<p class="small">Nominal values were noted while changing parts and were not all re-measured with a multimeter. &Delta; is the reading against the nominal. R<sub>ref</sub> = 9.9 k&Omega; range is calibrated (short, open, 1.001 k&Omega;). The 1 k&Omega; range is not calibrated.</p>
+<table width="100%" border="1" cellpadding="4" cellspacing="0">
+<tr><th width="28">#</th><th>Z<sub>x</sub> (nominal)</th><th>R<sub>ref</sub></th><th>Reading</th><th>&Delta;</th><th>Fit error</th></tr>
+<tr><td>1</td><td>6.15 k&Omega;</td><td>9.9 k&Omega;</td><td>R = 6039.55 &Omega;</td><td>&minus;1.8 %</td><td>0.35 %</td></tr>
+<tr><td>2</td><td>6.15 k&Omega; &#8741; 80 nF</td><td>9.9 k&Omega;</td><td>R = 5764.95 &Omega; &#8741; C = 70.36 nF</td><td>R &minus;6.3 %</td><td>5.21 %</td></tr>
+<tr><td>3</td><td>6.15 k&Omega; &#8741; 80 nF</td><td>1 k&Omega; (command said 10k)</td><td>R = 57895 &Omega; &#8741; C = 6.62 nF</td><td>invalid</td><td>5.69 %</td></tr>
+<tr><td>4</td><td>4.7 k&Omega;</td><td>9.9 k&Omega;</td><td>R = 4723.35 &Omega;</td><td>+0.5 %</td><td>0.17 %</td></tr>
+<tr><td>5</td><td>4.7 k&Omega;</td><td>1 k&Omega;</td><td>R = 3969.47 &Omega;</td><td>&minus;15.5 %</td><td>9.84 %</td></tr>
+<tr><td>6</td><td>4.7 k&Omega; &#8741; 6.15 k&Omega; (2.664 k&Omega;)</td><td>9.9 k&Omega;</td><td>R = 2648.34 &Omega;</td><td>&minus;0.6 %</td><td>0.26 %</td></tr>
+<tr><td>7</td><td>80 nF</td><td>9.9 k&Omega;</td><td>C = 72.36 nF, series R = 268 &Omega;</td><td>C &minus;9.5 %</td><td>1.77 %</td></tr>
+<tr><td>8</td><td>1 k&Omega; + 80 nF series</td><td>9.9 k&Omega;</td><td>R = 1274.34 &Omega; + C = 74.77 nF</td><td>R +27.4 %, C &minus;6.5 %</td><td>2.01 %</td></tr>
+<tr><td>9</td><td>220 &Omega;</td><td>1 k&Omega;</td><td>R = 215.43 &Omega;</td><td>&minus;2.1 %</td><td>2.62 %</td></tr>
+<tr><td>10</td><td>80 nF</td><td>1 k&Omega;</td><td>C = 66.14 nF, series R = 475 &Omega;</td><td>C &minus;17 %</td><td>2.02 %</td></tr>
+<tr><td>11</td><td>2 k&Omega;</td><td>1 k&Omega;</td><td>R = 1891.91 &Omega;</td><td>&minus;5.4 %</td><td>5.95 %</td></tr>
+<tr><td>12</td><td>2 k&Omega; &#8741; 80 nF (+ 220 &Omega;, connection not recorded)</td><td>1 k&Omega;</td><td>R = 2094.05 &Omega; &#8741; C = 53.65 nF</td><td>n/a</td><td>7.33 %</td></tr>
+</table>
+<img src="fig/resistor_errors.png" width="470" height="231">
+<p class="cap">Figure 3. Resistor-only runs: reading against nominal.</p>
+<p>Observations:</p>
+<ul>
+<li>On the calibrated 9.9 k&Omega; range, resistors read within about 2 % (runs 1, 4, 6), and the tool chose the right model for R, R&#8741;C and R+C.</li>
+<li>On the uncalibrated 1 k&Omega; range, errors are up to 15 % (runs 5, 9, 11), so that range is not usable yet.</li>
+<li>Run 3: if the software R<sub>ref</sub> setting does not match the resistor on the board, the result is wrong and no error is shown. Both must be changed together.</li>
+<li>Capacitors read 6 to 33 % below the nominal 80 nF (runs 2, 7, 8, 10, 12), and a "200 nF" part read about 160 nF. A series resistance appears with the capacitor: 268 &Omega; (run 7) and 475 &Omega; (run 10); in run 8 the extra resistance is about 274 &Omega;, close to run 7. Possible causes: the capacitors are really that value and lossy (ceramic or electrolytic), or the instrument has a capacitance bias. <b>This was not resolved</b>, it needs a second capacitor of known value or an LCR meter.</li>
+</ul>
+
+<h3>5.3 Series R + C part ("1 k&Omega; + 200 nF"), calibrated, 9.9 k&Omega; range</h3>
+<table width="100%" border="1" cellpadding="4" cellspacing="0">
+<tr><th>Frequency</th><th>125 Hz</th><th>250 Hz</th><th>500 Hz</th><th>1000 Hz</th></tr>
+<tr><td>R<sub>s</sub></td><td>1386 &Omega;</td><td>1190 &Omega;</td><td>1109 &Omega;</td><td>1107 &Omega;</td></tr>
+<tr><td>C<sub>s</sub></td><td>162.9 nF</td><td>158.6 nF</td><td>156.3 nF</td><td>159.0 nF</td></tr>
+</table>
+<p>Best fit: R + C series, R = 1120 &Omega;, C = 159.4 nF, fit error 2.4 %. C is steady across frequency, which suggests the part is about 160 nF, not 200 nF. The excess resistance above the known 1.001 k&Omega; divided by the reactance gives a loss factor of about 0.06, which is high for a film capacitor. Not verified against a reference meter.</p>
+
+<h3>5.4 Accuracy claim</h3>
+<p>About 1 to 2 % on resistance on the calibrated range. Limits: R<sub>ref</sub> known only to about 1 % (multimeter), the known-resistor calibration point (1.001 k&Omega;) is itself a multimeter reading, and the three-point calibration residual is about 12 &Omega; in Z. A full uncertainty budget (GUM) has not been done.</p>
+
+<h2>6. Simulation against hardware</h2>
+<table width="100%" border="1" cellpadding="4" cellspacing="0">
+<tr><th></th><th>LTspice</th><th>Hardware</th></tr>
+<tr><td>Resistor / R+L accuracy</td><td>0.02 % to 0.15 % (ideal parts, no noise)</td><td>about 2 % (calibrated range)</td></tr>
+<tr><td>Offset in Z<sub>x</sub> path</td><td>none</td><td>25 to 30 &Omega; before calibration</td></tr>
+<tr><td>Open-circuit H at 1 kHz</td><td>about 1 (op-amp lag only)</td><td>0.953 before calibration</td></tr>
+<tr><td>ADC</td><td>ideal nodes</td><td>offset 4.6 mV, noise 0.5 mV, channel gain mismatch up to 0.08 %, sampling skew 19 &micro;s</td></tr>
+<tr><td>Parts</td><td>exact values</td><td>about 1 % resistors measured by multimeter, breadboard contacts</td></tr>
+</table>
+<p>The simulation gives the lower limit set by the circuit itself. The difference to the hardware (about 2 %) is from component tolerance, the series offset, the AC amplitude droop at the open circuit, ADC effects and the uncertainty of the calibration standards, which are not in the LTspice model. The simulation did not predict the 25 to 30 &Omega; offset or the amplitude droop. The effect of capacitor losses was not simulated.</p>
+
+<h2>7. Limitations</h2>
+<ul>
+<li>Inductors were not tested on the hardware (none available).</li>
+<li>Source of the 25 to 30 &Omega; offset and the amplitude droop is not identified.</li>
+</ul>
+
+<h2>8. Conclusion</h2>
+<p>A divider-type impedance meter was simulated in LTspice (error under 0.15 % with ideal parts) and built on a breadboard. After calibration it measures resistors to about 2 % on the 9.9 k&Omega; range and identifies R, R&#8741;C and R+C. Capacitor values and the other ranges still need verification.</p>
+
+<h2>Appendix: files</h2>
+<ul class="small">
+<li><i>simulation/ltspice/</i>: <i>Model1.asc</i>, <i>Model1.raw</i>, <i>Model1.log</i> (LTspice schematic, results, log).</li>
+<li><i>hardware/</i>: hardware circuit drawing.</li>
+<li><i>firmware/</i>: firmware, host tool, calibration, bring-up log (<i>NOTES.md</i>).</li>
+<li><i>simulation/stage0/</i>, <i>simulation/cosim/</i>: Stage 0 and ngspice co-simulation.</li>
+<li>Code repository: [GitHub link]</li>
+<li><i>MEI_Impedance_Meter_Demo.mp4</i> (4 min 3 s, submitted separately; captions in <i>video/</i>): side-by-side breadboard and terminal, the 12 bench runs, with captions.</li>
+</ul>
+</body></html>

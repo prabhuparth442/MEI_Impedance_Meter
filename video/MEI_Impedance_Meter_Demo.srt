@@ -1,0 +1,96 @@
+1
+00:00:00,000 --> 00:00:06,266
+Setup: Zx = 6.15 kΩ resistor, Rref = 9.9 kΩ
+
+2
+00:00:06,266 --> 00:00:19,266
+Run 1: 6.15 kΩ resistor → R = 6039.55 Ω
+
+3
+00:00:19,266 --> 00:00:31,766
+80 nF ceramic capacitor added in parallel with the resistor
+
+4
+00:00:31,766 --> 00:00:43,766
+Run 2: 6.15 kΩ ∥ 80 nF → R = 5764.95 Ω  ∥  C = 70.36 nF
+
+5
+00:00:43,766 --> 00:00:47,500
+Rref swapped 9.9 kΩ → 1 kΩ on the board, but the command still says --ref 10k
+
+6
+00:00:47,500 --> 00:00:58,500
+Run 3: 6.15 kΩ ∥ 80 nF → R = 57895 Ω  ∥  C = 6.62 nF  (INVALID)
+
+7
+00:00:58,500 --> 00:01:07,233
+Rref back to 9.9 kΩ  ·  Zx = 4.7 kΩ resistor
+
+8
+00:01:07,233 --> 00:01:17,233
+Run 4: 4.7 kΩ resistor → R = 4723.35 Ω
+
+9
+00:01:17,233 --> 00:01:22,966
+Rref swapped to 1 kΩ, command updated to --ref 1k  ·  Zx unchanged (4.7 kΩ)
+
+10
+00:01:22,966 --> 00:01:33,966
+Run 5: 4.7 kΩ resistor → R = 3969.47 Ω
+
+11
+00:01:33,966 --> 00:01:41,700
+Rref back to 9.9 kΩ  ·  Zx = 4.7 kΩ ∥ 6.15 kΩ (two resistors in parallel)
+
+12
+00:01:41,700 --> 00:01:52,700
+Run 6: 4.7 kΩ ∥ 6.15 kΩ → R = 2648.34 Ω
+
+13
+00:01:52,700 --> 00:02:00,200
+Zx = 80 nF ceramic capacitor only (no resistor)
+
+14
+00:02:00,200 --> 00:02:11,199
+Run 7: 80 nF capacitor → C = 72.36 nF  (series R = 268 Ω)
+
+15
+00:02:11,199 --> 00:02:24,466
+Zx = 80 nF capacitor in series with a 1 kΩ resistor
+
+16
+00:02:24,466 --> 00:02:35,466
+Run 8: 1 kΩ + 80 nF (series) → R = 1274.34 Ω  +  C = 74.77 nF
+
+17
+00:02:35,466 --> 00:02:43,199
+Rref → 1 kΩ (--ref 1k)  ·  Zx = 220 Ω resistor
+
+18
+00:02:43,199 --> 00:02:54,199
+Run 9: 220 Ω resistor → R = 215.43 Ω
+
+19
+00:02:54,199 --> 00:03:04,466
+Zx = 80 nF ceramic capacitor, Rref still 1 kΩ
+
+20
+00:03:04,466 --> 00:03:14,466
+Run 10: 80 nF capacitor → C = 66.14 nF  (series R = 475 Ω)
+
+21
+00:03:14,466 --> 00:03:19,466
+Zx = 2 kΩ resistor, Rref = 1 kΩ
+
+22
+00:03:19,466 --> 00:03:29,466
+Run 11: 2 kΩ resistor → R = 1891.91 Ω
+
+23
+00:03:29,466 --> 00:03:42,199
+Zx = 2 kΩ ∥ 80 nF, plus 0.22 kΩ
+
+24
+00:03:42,199 --> 00:03:53,199
+Run 12: 2 kΩ ∥ 80 nF  (+ 0.22 kΩ) → R = 2094.05 Ω  ∥  C = 53.65 nF
+

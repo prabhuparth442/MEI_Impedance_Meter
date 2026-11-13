@@ -1,0 +1,8537 @@
+[
+ {
+  "bridge": "Wheatstone",
+  "idx": 0,
+  "case": "R 100ohm (R3=100)",
+  "scen": "S1",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.017244234498357186,
+    "std": 1.0307764761401104,
+    "p95": 2.073933155694334
+   },
+   "ph": {
+    "mean": 0.025690186450160465,
+    "std": 0.034237385252803586,
+    "p95": 0.08353525595570403
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 1,
+  "case": "R 220ohm (R3=100)",
+  "scen": "S1",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.11160680254012241,
+    "std": 1.1108231025298936,
+    "p95": 2.154823323729936
+   },
+   "ph": {
+    "mean": 0.030465780581799093,
+    "std": 0.05090361323235358,
+    "p95": 0.11107227767923859
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 2,
+  "case": "R 1kohm (R3=1k)",
+  "scen": "S1",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.0458500964367179,
+    "std": 1.0360238254683078,
+    "p95": 1.98494882245926
+   },
+   "ph": {
+    "mean": 0.02562596438373316,
+    "std": 0.03611137982936421,
+    "p95": 0.08762838171006322
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 3,
+  "case": "R 2.2kohm (R3=1k)",
+  "scen": "S1",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.044142161476365516,
+    "std": 1.1399093926182764,
+    "p95": 2.272572584122619
+   },
+   "ph": {
+    "mean": 0.022933353905540986,
+    "std": 0.046693692937874925,
+    "p95": 0.10063205925493954
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 4,
+  "case": "R 4.7kohm (R3=10k)",
+  "scen": "S1",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.054556113238748066,
+    "std": 1.0892438224989989,
+    "p95": 2.0665851762383816
+   },
+   "ph": {
+    "mean": 0.020012922874741247,
+    "std": 0.03701193489239345,
+    "p95": 0.08581936841478503
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 5,
+  "case": "R 10kohm (R3=10k)",
+  "scen": "S1",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.07050345950711717,
+    "std": 1.0449346650590683,
+    "p95": 2.021388238409024
+   },
+   "ph": {
+    "mean": -0.00016042025998713605,
+    "std": 0.03602262485369824,
+    "p95": 0.07221901258218977
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 6,
+  "case": "R 47kohm (R3=100k)",
+  "scen": "S1",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.054827608935159686,
+    "std": 1.0545819022281593,
+    "p95": 1.9442969479521566
+   },
+   "ph": {
+    "mean": -0.09912125721182605,
+    "std": 0.05611453546254984,
+    "p95": 0.19628117808201148
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 7,
+  "case": "R 100kohm (R3=100k)",
+  "scen": "S1",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.008633142979878385,
+    "std": 1.0014351432328954,
+    "p95": 1.9263865823191089
+   },
+   "ph": {
+    "mean": -0.24286390996885904,
+    "std": 0.09213605312294683,
+    "p95": 0.38971464711948156
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 0,
+  "case": "R 1ohm (Rs=1)",
+  "scen": "S1",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.12255705825795542,
+    "std": 3.5168895298846605,
+    "p95": 6.519048866609862
+   },
+   "ph": {
+    "mean": 0.008982298738242052,
+    "std": 0.9117161136025023,
+    "p95": 1.7632171508015733
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 1,
+  "case": "R 2.2ohm (Rs=1)",
+  "scen": "S1",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.14786966523662476,
+    "std": 1.7288611966491252,
+    "p95": 3.2317321926147033
+   },
+   "ph": {
+    "mean": 0.001070850308757646,
+    "std": 0.4072409551587448,
+    "p95": 0.7726320121038279
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 2,
+  "case": "R 4.7ohm (Rs=10)",
+  "scen": "S1",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.48799255323503216,
+    "std": 5.702125004468896,
+    "p95": 9.776181353940835
+   },
+   "ph": {
+    "mean": -0.018041440314438814,
+    "std": 0.20955804899700364,
+    "p95": 0.40095739823800974
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 3,
+  "case": "R 10ohm (Rs=10)",
+  "scen": "S1",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.168137219112703,
+    "std": 3.072971680378311,
+    "p95": 5.135484340568529
+   },
+   "ph": {
+    "mean": -0.003390467792631683,
+    "std": 0.0990872909262722,
+    "p95": 0.18818905678607623
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 4,
+  "case": "R 22ohm (Rs=10)",
+  "scen": "S1",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.005627634486525317,
+    "std": 1.680554936264787,
+    "p95": 2.9219840821049963
+   },
+   "ph": {
+    "mean": -0.0020507295820813265,
+    "std": 0.06913005948508888,
+    "p95": 0.1328183641935817
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 0,
+  "case": "L 10mH, DCR 8ohm (R3=100, R4=10k)",
+  "scen": "S1",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.0564511629316609,
+    "std": 2.8773890792976764,
+    "p95": 5.071962122944312
+   },
+   "ph": {
+    "mean": -0.007235058903816256,
+    "std": 0.4180556592729114,
+    "p95": 0.7489859873034139
+   },
+   "L": {
+    "mean": -0.05776038540181005,
+    "std": 3.0373066832192173,
+    "p95": 5.305088846274882
+   },
+   "dR": {
+    "mean": -0.006377962862263096,
+    "std": 0.123984511932426,
+    "p95": 0.2354852369528894
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 1,
+  "case": "L 22mH, DCR 18ohm (R3=100, R4=10k)",
+  "scen": "S1",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.08593109335676702,
+    "std": 1.3519659590061885,
+    "p95": 2.4589760477002605
+   },
+   "ph": {
+    "mean": 0.02300631212316026,
+    "std": 0.24769775668164226,
+    "p95": 0.4440769826911969
+   },
+   "L": {
+    "mean": 0.09671409542201699,
+    "std": 1.4466521086401685,
+    "p95": 2.6036817478539023
+   },
+   "dR": {
+    "mean": -0.015816332681408304,
+    "std": 0.16724740805196647,
+    "p95": 0.3240814021069273
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 2,
+  "case": "L 47mH, DCR 35ohm (R3=1k, R4=33k)",
+  "scen": "S1",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.08841637076775094,
+    "std": 5.894462814115902,
+    "p95": 9.952001353443011
+   },
+   "ph": {
+    "mean": 0.1105228785972715,
+    "std": 0.290073243296852,
+    "p95": 0.6362974896657053
+   },
+   "L": {
+    "mean": -0.05061979898185122,
+    "std": 5.789126103309115,
+    "p95": 9.83847012873414
+   },
+   "dR": {
+    "mean": -0.27548444479550255,
+    "std": 2.7412756871950075,
+    "p95": 4.765388531191278
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 3,
+  "case": "L 100mH, DCR 60ohm (R3=1k, R4=10k)",
+  "scen": "S1",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.04405160857426605,
+    "std": 2.721633814856204,
+    "p95": 4.839789191977664
+   },
+   "ph": {
+    "mean": 0.03807006141826305,
+    "std": 0.3103289617317127,
+    "p95": 0.5657047087275112
+   },
+   "L": {
+    "mean": -0.03036471786565873,
+    "std": 2.8141499508770806,
+    "p95": 5.011321070116691
+   },
+   "dR": {
+    "mean": -0.2771209207558399,
+    "std": 0.7870340877465937,
+    "p95": 1.515991834843464
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 0,
+  "case": "C 1e-08F, ESR 15.9ohm (R4=100)",
+  "scen": "S1",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.26489244574206433,
+    "std": 3.100267233633696,
+    "p95": 5.3819384446780445
+   },
+   "ph": {
+    "mean": 0.02232948967551775,
+    "std": 1.3085904389274614,
+    "p95": 2.546654528397155
+   },
+   "C": {
+    "mean": 0.38789168700737536,
+    "std": 3.1030963287506492,
+    "p95": 5.335384651985435
+   },
+   "dtan": {
+    "mean": 0.00039096407694479135,
+    "std": 0.022853208383310564,
+    "p95": 0.0444777996954867
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 1,
+  "case": "C 4.7e-08F, ESR 3.39ohm (R4=330)",
+  "scen": "S1",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.07900863011489619,
+    "std": 2.186985537794941,
+    "p95": 3.910591584390861
+   },
+   "ph": {
+    "mean": -0.024198151630085915,
+    "std": 0.29718258732749475,
+    "p95": 0.557226429713385
+   },
+   "C": {
+    "mean": -0.030059763084498547,
+    "std": 2.1823632377879334,
+    "p95": 3.9126430200212288
+   },
+   "dtan": {
+    "mean": -0.00042232761429472144,
+    "std": 0.005186943203211912,
+    "p95": 0.009725697651384231
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 2,
+  "case": "C 1e-07F, ESR 63.7ohm (R4=1k)",
+  "scen": "S1",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.2972666516066802,
+    "std": 3.016228822258334,
+    "p95": 5.240370703706874
+   },
+   "ph": {
+    "mean": -0.0323964960435041,
+    "std": 0.1492118650665502,
+    "p95": 0.29882764613204693
+   },
+   "C": {
+    "mean": -0.2069724157170295,
+    "std": 3.0077194436692523,
+    "p95": 5.190914688959727
+   },
+   "dtan": {
+    "mean": -0.0005655125255579598,
+    "std": 0.0026052676597992275,
+    "p95": 0.005217115628916192
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 3,
+  "case": "C 2.2e-07F, ESR 0.723ohm (R4=3.3k)",
+  "scen": "S1",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.09681448685135088,
+    "std": 2.81191819155821,
+    "p95": 4.732768838395389
+   },
+   "ph": {
+    "mean": -0.03791752756826984,
+    "std": 0.6909609378187304,
+    "p95": 1.196927639558207
+   },
+   "C": {
+    "mean": 0.18319888242212248,
+    "std": 2.816356385010131,
+    "p95": 4.7643444788224825
+   },
+   "dtan": {
+    "mean": -0.0006619002938057689,
+    "std": 0.012060672319087777,
+    "p95": 0.02089315462920878
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 4,
+  "case": "C 1e-06F, ESR 0.318ohm (R4=10k)",
+  "scen": "S1",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.2589768966792888,
+    "std": 2.574452175671113,
+    "p95": 4.519182312885624
+   },
+   "ph": {
+    "mean": -0.03544329726387646,
+    "std": 0.5726065996972561,
+    "p95": 1.071018248300326
+   },
+   "C": {
+    "mean": -0.18743206356969658,
+    "std": 2.575699450349278,
+    "p95": 4.462638119147016
+   },
+   "dtan": {
+    "mean": -0.0006185992094607059,
+    "std": 0.00999467262384088,
+    "p95": 0.018695340608915555
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 5,
+  "case": "C 1e-05F, ESR 2ohm (R4=100k)",
+  "scen": "S1",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.4748091886035779,
+    "std": 3.1584659379994755,
+    "p95": 5.8837017812631744
+   },
+   "ph": {
+    "mean": -0.20546860502779926,
+    "std": 6.303647951297463,
+    "p95": 11.730186359640227
+   },
+   "C": {
+    "mean": 0.19613178893976277,
+    "std": 2.625234380323237,
+    "p95": 4.589324677521848
+   },
+   "dtan": {
+    "mean": -0.0029386833533637845,
+    "std": 0.11134180962065564,
+    "p95": 0.20682584329207412
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 0,
+  "case": "R 100ohm (R3=100)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.0005311676315842284,
+    "std": 0.17324024484360534,
+    "p95": 0.3326251406800755
+   },
+   "ph": {
+    "mean": 0.02846435395194777,
+    "std": 0.03687022785783009,
+    "p95": 0.08772196894685577
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 1,
+  "case": "R 220ohm (R3=100)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.02274784547900824,
+    "std": 0.20846678728165943,
+    "p95": 0.4192841382254052
+   },
+   "ph": {
+    "mean": 0.02862851723849932,
+    "std": 0.04571254169833084,
+    "p95": 0.10142237365843527
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 2,
+  "case": "R 1kohm (R3=1k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.014052162205979934,
+    "std": 0.1632798143166788,
+    "p95": 0.3122076723847022
+   },
+   "ph": {
+    "mean": 0.025546470317055498,
+    "std": 0.03636662150473791,
+    "p95": 0.0877236925679216
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 3,
+  "case": "R 2.2kohm (R3=1k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.0020090743055351814,
+    "std": 0.2404530459979465,
+    "p95": 0.4540307712445211
+   },
+   "ph": {
+    "mean": 0.02155956095054905,
+    "std": 0.04551480296249026,
+    "p95": 0.09171533155875455
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 4,
+  "case": "R 4.7kohm (R3=10k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.002854746663197988,
+    "std": 0.18564814625036294,
+    "p95": 0.38259928193421827
+   },
+   "ph": {
+    "mean": 0.016444810079600792,
+    "std": 0.03745323224282037,
+    "p95": 0.0810479548328741
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 5,
+  "case": "R 10kohm (R3=10k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.021514015107267914,
+    "std": 0.16583194625450134,
+    "p95": 0.3081798487052767
+   },
+   "ph": {
+    "mean": -0.00026997011332510827,
+    "std": 0.03496964639667548,
+    "p95": 0.06768311985820442
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 6,
+  "case": "R 47kohm (R3=100k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.015987419124047168,
+    "std": 0.17676151481431013,
+    "p95": 0.3402466239613943
+   },
+   "ph": {
+    "mean": -0.09871149846976193,
+    "std": 0.05756157042573305,
+    "p95": 0.19119837897566985
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 7,
+  "case": "R 100kohm (R3=100k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.009399389924956675,
+    "std": 0.16820495632007199,
+    "p95": 0.31808811201290654
+   },
+   "ph": {
+    "mean": -0.23968770839923365,
+    "std": 0.09389893600910919,
+    "p95": 0.4071014173519621
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 0,
+  "case": "R 1ohm (Rs=1)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.07479011379818314,
+    "std": 1.5801907706774232,
+    "p95": 3.2183163635433103
+   },
+   "ph": {
+    "mean": 0.008190568886315553,
+    "std": 0.8994513964657017,
+    "p95": 1.6942986879037318
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 1,
+  "case": "R 2.2ohm (Rs=1)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.10668507800931565,
+    "std": 0.8669719467576252,
+    "p95": 1.7052552656409843
+   },
+   "ph": {
+    "mean": -0.008602149859914825,
+    "std": 0.38530365364718844,
+    "p95": 0.7966354937835265
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 2,
+  "case": "R 4.7ohm (Rs=10)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.14122525554317106,
+    "std": 1.3973912823376127,
+    "p95": 2.555140857154738
+   },
+   "ph": {
+    "mean": 0.0030856083835222713,
+    "std": 0.2025982332905057,
+    "p95": 0.3807410475146395
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 3,
+  "case": "R 10ohm (Rs=10)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.026474782099563915,
+    "std": 0.6107628003443875,
+    "p95": 1.079104306930757
+   },
+   "ph": {
+    "mean": -0.0022717731345508673,
+    "std": 0.1104788912080576,
+    "p95": 0.21230459555735437
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 4,
+  "case": "R 22ohm (Rs=10)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.08544110907951112,
+    "std": 0.43423656742030803,
+    "p95": 0.8379542294524527
+   },
+   "ph": {
+    "mean": 0.0026509267011494923,
+    "std": 0.06517592137615755,
+    "p95": 0.1209876864916158
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 0,
+  "case": "L 10mH, DCR 8ohm (R3=100, R4=10k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.0038447724418839146,
+    "std": 0.5812639355744201,
+    "p95": 1.0318831258513455
+   },
+   "ph": {
+    "mean": 0.014319665221795584,
+    "std": 0.15715913984153732,
+    "p95": 0.2938598949903225
+   },
+   "L": {
+    "mean": 0.009995656647069999,
+    "std": 0.6130026962877508,
+    "p95": 1.0949949157898122
+   },
+   "dR": {
+    "mean": -0.007777919330638375,
+    "std": 0.07954145851241455,
+    "p95": 0.15383066336935936
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 1,
+  "case": "L 22mH, DCR 18ohm (R3=100, R4=10k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.0243097406766927,
+    "std": 0.2881141585514844,
+    "p95": 0.5385721834258016
+   },
+   "ph": {
+    "mean": 0.0040049348418986705,
+    "std": 0.0830030021850081,
+    "p95": 0.15191317614944164
+   },
+   "L": {
+    "mean": -0.022532139427182078,
+    "std": 0.3114092398060362,
+    "p95": 0.5726128481039265
+   },
+   "dR": {
+    "mean": -0.009390655339502648,
+    "std": 0.0819894975793513,
+    "p95": 0.16936285760470543
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 2,
+  "case": "L 47mH, DCR 35ohm (R3=1k, R4=33k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.02177047942845526,
+    "std": 1.1144293705780426,
+    "p95": 1.9288100537709627
+   },
+   "ph": {
+    "mean": 0.04074594363473274,
+    "std": 0.06773437033434318,
+    "p95": 0.15211870325969623
+   },
+   "L": {
+    "mean": 0.038322624894744764,
+    "std": 1.0955830506299429,
+    "p95": 1.899413537327079
+   },
+   "dR": {
+    "mean": -0.09610546482487839,
+    "std": 0.5244937434997416,
+    "p95": 0.9484311882576069
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 3,
+  "case": "L 100mH, DCR 60ohm (R3=1k, R4=10k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.03590277117415849,
+    "std": 0.5367536619396491,
+    "p95": 0.9056792220726492
+   },
+   "ph": {
+    "mean": 0.013813175654102823,
+    "std": 0.06942408524933995,
+    "p95": 0.1310686349466373
+   },
+   "L": {
+    "mean": -0.03126411970631687,
+    "std": 0.5577601414695433,
+    "p95": 0.9402144044316969
+   },
+   "dR": {
+    "mean": -0.09914593971140465,
+    "std": 0.16413131754302,
+    "p95": 0.36576904766252544
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 0,
+  "case": "C 1e-08F, ESR 15.9ohm (R4=100)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.06812706732498013,
+    "std": 0.9860172464172975,
+    "p95": 1.8935466800764666
+   },
+   "ph": {
+    "mean": -0.007135676731158152,
+    "std": 1.2951213243351816,
+    "p95": 2.5800821648835535
+   },
+   "C": {
+    "mean": 0.10338609628462737,
+    "std": 0.9865036689702822,
+    "p95": 1.9139430998596267
+   },
+   "dtan": {
+    "mean": -0.0001243277410690361,
+    "std": 0.02261471217339662,
+    "p95": 0.045060488875592324
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 1,
+  "case": "C 4.7e-08F, ESR 3.39ohm (R4=330)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.05108708737225495,
+    "std": 0.4574296675137598,
+    "p95": 0.7959361115350247
+   },
+   "ph": {
+    "mean": -0.008865447991640529,
+    "std": 0.2656849910225582,
+    "p95": 0.5286683321121587
+   },
+   "C": {
+    "mean": 0.054268886400021504,
+    "std": 0.4576484009630144,
+    "p95": 0.7980811830556931
+   },
+   "dtan": {
+    "mean": -0.0001547224722795703,
+    "std": 0.004637175718710054,
+    "p95": 0.00922722464607144
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 2,
+  "case": "C 1e-07F, ESR 63.7ohm (R4=1k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.01581740857248151,
+    "std": 0.6196538869059606,
+    "p95": 1.022457282872475
+   },
+   "ph": {
+    "mean": -0.01262249427212349,
+    "std": 0.1337782228933203,
+    "p95": 0.26192443802658844
+   },
+   "C": {
+    "mean": -0.012146638407986738,
+    "std": 0.6204561569415545,
+    "p95": 1.0317875207650293
+   },
+   "dtan": {
+    "mean": -0.00022028293569404615,
+    "std": 0.0023358155310387423,
+    "p95": 0.004572929295248844
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 3,
+  "case": "C 2.2e-07F, ESR 0.723ohm (R4=3.3k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.03983419324031437,
+    "std": 0.5219176358044292,
+    "p95": 0.9039147598609997
+   },
+   "ph": {
+    "mean": -0.013468883918887871,
+    "std": 0.13597793863883376,
+    "p95": 0.25587302048744937
+   },
+   "C": {
+    "mean": 0.04284189145704881,
+    "std": 0.522221661510776,
+    "p95": 0.9113647987531025
+   },
+   "dtan": {
+    "mean": -0.00023507505404777424,
+    "std": 0.002373274008230769,
+    "p95": 0.004465866452493305
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 4,
+  "case": "C 1e-06F, ESR 0.318ohm (R4=10k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.010372661093073306,
+    "std": 0.5176411826438887,
+    "p95": 0.8433324297016837
+   },
+   "ph": {
+    "mean": -0.014885618992036997,
+    "std": 0.11261834480375288,
+    "p95": 0.2151503943836528
+   },
+   "C": {
+    "mean": 0.013216339337433684,
+    "std": 0.5175304841829637,
+    "p95": 0.8409899131770221
+   },
+   "dtan": {
+    "mean": -0.00025980038363027124,
+    "std": 0.001965568229601836,
+    "p95": 0.003755116863910041
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 5,
+  "case": "C 1e-05F, ESR 2ohm (R4=100k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.026746782830826904,
+    "std": 0.6487312202749518,
+    "p95": 1.1603646665466436
+   },
+   "ph": {
+    "mean": 0.031171226891596536,
+    "std": 1.1900951639845252,
+    "p95": 2.2938540370529137
+   },
+   "C": {
+    "mean": 0.0019619988990258208,
+    "std": 0.5601439472698051,
+    "p95": 1.030496609346217
+   },
+   "dtan": {
+    "mean": 0.000573841355050474,
+    "std": 0.020864029076123926,
+    "p95": 0.04012401017996028
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 0,
+  "case": "R 100ohm (R3=100)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.01054173084204868,
+    "std": 0.09376763879479481,
+    "p95": 0.18881688028941673
+   },
+   "ph": {
+    "mean": 0.026689560918691676,
+    "std": 0.02306607871139316,
+    "p95": 0.06414194338168804
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 1,
+  "case": "R 220ohm (R3=100)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.03367225786811914,
+    "std": 0.10305492681379182,
+    "p95": 0.20880426216972942
+   },
+   "ph": {
+    "mean": 0.029366900448897025,
+    "std": 0.024798773318472328,
+    "p95": 0.06893298793786988
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 2,
+  "case": "R 1kohm (R3=1k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.009976219791504898,
+    "std": 0.09377117530571782,
+    "p95": 0.18758987847950978
+   },
+   "ph": {
+    "mean": 0.02555702670619106,
+    "std": 0.020343758565297725,
+    "p95": 0.059919243697506556
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 3,
+  "case": "R 2.2kohm (R3=1k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.008924362841199601,
+    "std": 0.11040254258947711,
+    "p95": 0.21682837869775284
+   },
+   "ph": {
+    "mean": 0.024756146713703478,
+    "std": 0.026177394605278126,
+    "p95": 0.06651489624124365
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 4,
+  "case": "R 4.7kohm (R3=10k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.0019912383645460108,
+    "std": 0.10179994230631648,
+    "p95": 0.18962532422257977
+   },
+   "ph": {
+    "mean": 0.01587799766507649,
+    "std": 0.024691113846145092,
+    "p95": 0.05766684035363736
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 5,
+  "case": "R 10kohm (R3=10k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.0014885368178549352,
+    "std": 0.09856239448645959,
+    "p95": 0.19103757913946767
+   },
+   "ph": {
+    "mean": 0.0003304279761747519,
+    "std": 0.022830769329389544,
+    "p95": 0.04434281897741799
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 6,
+  "case": "R 47kohm (R3=100k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.002138078215290329,
+    "std": 0.1074457018741368,
+    "p95": 0.2029974321355149
+   },
+   "ph": {
+    "mean": -0.09115655837958787,
+    "std": 0.04954929628736544,
+    "p95": 0.17443221003460674
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 7,
+  "case": "R 100kohm (R3=100k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.0006140956255472341,
+    "std": 0.0970615433015592,
+    "p95": 0.18919482229318052
+   },
+   "ph": {
+    "mean": -0.24781679631074915,
+    "std": 0.09132649513355122,
+    "p95": 0.3907788044135951
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 0,
+  "case": "R 1ohm (Rs=1)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.03744871723320909,
+    "std": 1.5474537403454343,
+    "p95": 2.976558264262265
+   },
+   "ph": {
+    "mean": -0.011227222690255658,
+    "std": 0.8626921166138577,
+    "p95": 1.7714214522433882
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 1,
+  "case": "R 2.2ohm (Rs=1)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.05257661184860507,
+    "std": 0.737147531767309,
+    "p95": 1.4018948985258977
+   },
+   "ph": {
+    "mean": -0.03835365633856265,
+    "std": 0.4013662729086223,
+    "p95": 0.7499269279289486
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 2,
+  "case": "R 4.7ohm (Rs=10)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.11653333774692548,
+    "std": 0.5828130245584745,
+    "p95": 1.138624148964549
+   },
+   "ph": {
+    "mean": -0.010962901347942507,
+    "std": 0.20319138366539075,
+    "p95": 0.400961557274342
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 3,
+  "case": "R 10ohm (Rs=10)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.009067509776237354,
+    "std": 0.2718394544070649,
+    "p95": 0.5552340151737283
+   },
+   "ph": {
+    "mean": -0.00431107709487741,
+    "std": 0.10656173752839325,
+    "p95": 0.21470425199850207
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 4,
+  "case": "R 22ohm (Rs=10)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.04857774220433309,
+    "std": 0.22053951530982385,
+    "p95": 0.4354811725920572
+   },
+   "ph": {
+    "mean": -0.004126551016811111,
+    "std": 0.061076752426337595,
+    "p95": 0.12525888901133048
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 0,
+  "case": "L 10mH, DCR 8ohm (R3=100, R4=10k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.004431047700830109,
+    "std": 0.3072617797053211,
+    "p95": 0.5908141637938874
+   },
+   "ph": {
+    "mean": 0.015153737254339052,
+    "std": 0.13262021537122934,
+    "p95": 0.25344119650978175
+   },
+   "L": {
+    "mean": 0.002046945534989547,
+    "std": 0.3173336860405889,
+    "p95": 0.6043273219371287
+   },
+   "dR": {
+    "mean": -0.008702151669991921,
+    "std": 0.07493743884785159,
+    "p95": 0.1392343803718774
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 1,
+  "case": "L 22mH, DCR 18ohm (R3=100, R4=10k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.0074351902743346465,
+    "std": 0.14907497034570077,
+    "p95": 0.30451994803534205
+   },
+   "ph": {
+    "mean": 0.006761681422563816,
+    "std": 0.06555616084977733,
+    "p95": 0.12500138693634882
+   },
+   "L": {
+    "mean": -0.004421645481443831,
+    "std": 0.1560846824520033,
+    "p95": 0.3326935017128093
+   },
+   "dR": {
+    "mean": -0.009522741805552766,
+    "std": 0.079838146794735,
+    "p95": 0.14828665806074742
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 2,
+  "case": "L 47mH, DCR 35ohm (R3=1k, R4=33k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.03019347886908788,
+    "std": 0.431192105994841,
+    "p95": 0.8335150613160661
+   },
+   "ph": {
+    "mean": 0.042106479113682344,
+    "std": 0.04240082954448525,
+    "p95": 0.11270684645885974
+   },
+   "L": {
+    "mean": 0.04752714767781278,
+    "std": 0.4228309885031093,
+    "p95": 0.8168372364348424
+   },
+   "dR": {
+    "mean": -0.09776231221390325,
+    "std": 0.2257689070819111,
+    "p95": 0.46842351900522733
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 3,
+  "case": "L 100mH, DCR 60ohm (R3=1k, R4=10k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.007592509918930289,
+    "std": 0.1887138745228213,
+    "p95": 0.38116475985596804
+   },
+   "ph": {
+    "mean": 0.014009631236421214,
+    "std": 0.028374818117105276,
+    "p95": 0.060699307465283875
+   },
+   "L": {
+    "mean": -0.0029260787142372235,
+    "std": 0.19521581749556938,
+    "p95": 0.3983557618325989
+   },
+   "dR": {
+    "mean": -0.0815750933790587,
+    "std": 0.11519852044197956,
+    "p95": 0.2813857958175088
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 0,
+  "case": "C 1e-08F, ESR 15.9ohm (R4=100)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.14530614799516983,
+    "std": 0.3985273656597583,
+    "p95": 0.817249022217563
+   },
+   "ph": {
+    "mean": -0.012369682575251128,
+    "std": 0.27973546031120744,
+    "p95": 0.5520181534681271
+   },
+   "C": {
+    "mean": 0.14829128723582155,
+    "std": 0.39978365618226175,
+    "p95": 0.8113907220656332
+   },
+   "dtan": {
+    "mean": -0.00021588848091210657,
+    "std": 0.0048824181775510185,
+    "p95": 0.009634793270545693
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 1,
+  "case": "C 4.7e-08F, ESR 3.39ohm (R4=330)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.03229593829044114,
+    "std": 0.1749388147191717,
+    "p95": 0.3523553885093478
+   },
+   "ph": {
+    "mean": -0.01180133506496176,
+    "std": 0.06301457776101299,
+    "p95": 0.1191864367241437
+   },
+   "C": {
+    "mean": 0.03266410131287961,
+    "std": 0.17504949795068722,
+    "p95": 0.3536309527465009
+   },
+   "dtan": {
+    "mean": -0.00020597165238098061,
+    "std": 0.001099813619662398,
+    "p95": 0.002080197101551142
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 2,
+  "case": "C 1e-07F, ESR 63.7ohm (R4=1k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.004513785357380978,
+    "std": 0.2323456869229551,
+    "p95": 0.4550309840409266
+   },
+   "ph": {
+    "mean": -0.015502563100175509,
+    "std": 0.029551567105352974,
+    "p95": 0.06411370277863947
+   },
+   "C": {
+    "mean": 0.004528662295483238,
+    "std": 0.23251186414482455,
+    "p95": 0.4539612346495197
+   },
+   "dtan": {
+    "mean": -0.0002706723001506562,
+    "std": 0.0005159732370166602,
+    "p95": 0.0011194182214787863
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 3,
+  "case": "C 2.2e-07F, ESR 0.723ohm (R4=3.3k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.009217013758333753,
+    "std": 0.19378581938924133,
+    "p95": 0.37219918956432596
+   },
+   "ph": {
+    "mean": -0.020445425590099854,
+    "std": 0.05040022547493068,
+    "p95": 0.10835320698993131
+   },
+   "C": {
+    "mean": 0.009619732728364638,
+    "std": 0.19385104057614153,
+    "p95": 0.37361493882702707
+   },
+   "dtan": {
+    "mean": -0.0003568399239524875,
+    "std": 0.0008796506028487684,
+    "p95": 0.0018911213464158124
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 4,
+  "case": "C 1e-06F, ESR 0.318ohm (R4=10k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.010287662718071022,
+    "std": 0.18555822897395102,
+    "p95": 0.3703026204953963
+   },
+   "ph": {
+    "mean": -0.010384500706804703,
+    "std": 0.04213837123294769,
+    "p95": 0.08711669341169721
+   },
+   "C": {
+    "mean": -0.009932694481053302,
+    "std": 0.18555546584528365,
+    "p95": 0.3716341380182197
+   },
+   "dtan": {
+    "mean": -0.00018124345446974644,
+    "std": 0.0007354542440107016,
+    "p95": 0.0015204737490933488
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 5,
+  "case": "C 1e-05F, ESR 2ohm (R4=100k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.045124473562633216,
+    "std": 0.32142555690002855,
+    "p95": 0.6198695171748588
+   },
+   "ph": {
+    "mean": 0.03220259924725673,
+    "std": 0.3990430941353009,
+    "p95": 0.7872281492590912
+   },
+   "C": {
+    "mean": -0.03815308688514557,
+    "std": 0.3045446539815761,
+    "p95": 0.5676285531997919
+   },
+   "dtan": {
+    "mean": 0.0005673480306363933,
+    "std": 0.006992606112186066,
+    "p95": 0.013805533652378797
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 2,
+  "case": "R 1kohm (R3=1k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.005737142184578303,
+    "std": 0.10310617169148696,
+    "p95": 0.2003035061002737
+   },
+   "ph": {
+    "mean": -1.0853168068623273e-15,
+    "std": 1.0230336464463282e-14,
+    "p95": 2.142544478608552e-14
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 2,
+  "case": "R 1kohm (R3=1k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": true,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 1.217076127728589e-05,
+    "std": 7.3944988686896235e-06,
+    "p95": 2.56064589965188e-05
+   },
+   "ph": {
+    "mean": 0.024258005580760193,
+    "std": 0.008744166533421402,
+    "p95": 0.039270971513890515
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 2,
+  "case": "R 1kohm (R3=1k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": true,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.0023293042230091653,
+    "std": 0.028440434864098287,
+    "p95": 0.05246524726153168
+   },
+   "ph": {
+    "mean": 0.0016888609161942916,
+    "std": 0.016669077499398964,
+    "p95": 0.03335478634639828
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 2,
+  "case": "R 1kohm (R3=1k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": true,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.0023289610492502446,
+    "std": 0.15180609610816614,
+    "p95": 0.2800634696136389
+   },
+   "ph": {
+    "mean": -7.108157065186133e-16,
+    "std": 9.961577332972719e-15,
+    "p95": 2.0344267051520156e-14
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 2,
+  "case": "R 1kohm (R3=1k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": true,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -8.215650382226158e-15,
+    "std": 4.949140582165119e-14,
+    "p95": 9.49240686054507e-14
+   },
+   "ph": {
+    "mean": -7.238287717392878e-16,
+    "std": 9.606407765358763e-15,
+    "p95": 1.9587509681052778e-14
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 2,
+  "case": "R 1kohm (R3=1k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": true,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -4.0576422470905983e-07,
+    "std": 1.2270938770562283e-05,
+    "p95": 2.690598158272549e-05
+   },
+   "ph": {
+    "mean": -0.0009775913888067315,
+    "std": 0.030612153865912015,
+    "p95": 0.0587252942785112
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 2,
+  "case": "R 1kohm (R3=1k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": true,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -6.794564910705958e-15,
+    "std": 5.1101867541425004e-14,
+    "p95": 9.992007221626409e-14
+   },
+   "ph": {
+    "mean": -9.738539150062623e-17,
+    "std": 9.706546247947515e-15,
+    "p95": 2.144614082434673e-14
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 2,
+  "case": "R 1kohm (R3=1k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": true,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -3.8635761256955444e-15,
+    "std": 4.8484064535251154e-14,
+    "p95": 9.49240686054507e-14
+   },
+   "ph": {
+    "mean": -1.0133141655894196e-15,
+    "std": 1.099165961790861e-14,
+    "p95": 2.180349409894395e-14
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 2,
+  "case": "R 1kohm (R3=1k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -7.194245199571014e-15,
+    "std": 4.760987225131051e-14,
+    "p95": 8.881784197001252e-14
+   },
+   "ph": {
+    "mean": -3.400613876919429e-17,
+    "std": 9.255823050099921e-15,
+    "p95": 1.9784604121835767e-14
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 7,
+  "case": "R 100kohm (R3=100k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.0016041700236813395,
+    "std": 0.09617162352253697,
+    "p95": 0.18182146470377633
+   },
+   "ph": {
+    "mean": 6.237932796991315e-16,
+    "std": 1.0772214456231242e-14,
+    "p95": 2.3236875698343864e-14
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 7,
+  "case": "R 100kohm (R3=100k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": true,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.0012991605934417727,
+    "std": 0.0007853555161974048,
+    "p95": 0.002793730507478219
+   },
+   "ph": {
+    "mean": -0.2516254441820898,
+    "std": 0.0916465380754558,
+    "p95": 0.40232380310711996
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 7,
+  "case": "R 100kohm (R3=100k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": true,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.004514185967288142,
+    "std": 0.02915676785270903,
+    "p95": 0.057304422720065244
+   },
+   "ph": {
+    "mean": -0.0006585558435566796,
+    "std": 0.018597825325392777,
+    "p95": 0.037237756787712344
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 7,
+  "case": "R 100kohm (R3=100k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": true,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.007471279389366936,
+    "std": 0.13286806127572098,
+    "p95": 0.2486470335950674
+   },
+   "ph": {
+    "mean": -1.6365922560715844e-17,
+    "std": 1.0297729113082303e-14,
+    "p95": 2.1847076135203564e-14
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 7,
+  "case": "R 100kohm (R3=100k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": true,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -1.1013412404281553e-14,
+    "std": 5.140426929781922e-14,
+    "p95": 9.992007221626409e-14
+   },
+   "ph": {
+    "mean": -3.5257452033326603e-16,
+    "std": 9.455308985354673e-15,
+    "p95": 1.918550118900668e-14
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 7,
+  "case": "R 100kohm (R3=100k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": true,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 3.1266183873057687e-07,
+    "std": 9.8605575465214e-06,
+    "p95": 2.0560760834453785e-05
+   },
+   "ph": {
+    "mean": 0.00012956556757472593,
+    "std": 0.026992294438046984,
+    "p95": 0.05451570790331318
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 7,
+  "case": "R 100kohm (R3=100k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": true,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -8.482103908136197e-15,
+    "std": 4.904417147284568e-14,
+    "p95": 8.881784197001252e-14
+   },
+   "ph": {
+    "mean": 4.394760541202319e-16,
+    "std": 1.0496448675335435e-14,
+    "p95": 2.325671153490553e-14
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 7,
+  "case": "R 100kohm (R3=100k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": true,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -1.1945999744966684e-14,
+    "std": 4.436183415834591e-14,
+    "p95": 8.881784197001252e-14
+   },
+   "ph": {
+    "mean": 1.6130947534044037e-15,
+    "std": 1.0266927577033714e-14,
+    "p95": 2.1032191572742804e-14
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 7,
+  "case": "R 100kohm (R3=100k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -3.774758283725532e-15,
+    "std": 4.811189371227564e-14,
+    "p95": 8.881784197001252e-14
+   },
+   "ph": {
+    "mean": -5.025470268386983e-16,
+    "std": 1.0087785592442836e-14,
+    "p95": 2.0834086768296716e-14
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 0,
+  "case": "R 1ohm (Rs=1)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.01715201577485899,
+    "std": 0.6006192385810424,
+    "p95": 0.9875393223309652
+   },
+   "ph": {
+    "mean": -9.34504873699608e-16,
+    "std": 1.3166161330181548e-13,
+    "p95": 2.6552578327834806e-13
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 0,
+  "case": "R 1ohm (Rs=1)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": true,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 1.6382325940256237e-08,
+    "std": 1.0682601937539609e-07,
+    "p95": 2.083940819908034e-07
+   },
+   "ph": {
+    "mean": -5.924493741237615e-05,
+    "std": 0.0012384978761571031,
+    "p95": 0.002570209825698719
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 0,
+  "case": "R 1ohm (Rs=1)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": true,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.060295845725808095,
+    "std": 1.6582189111927073,
+    "p95": 3.50004507980698
+   },
+   "ph": {
+    "mean": -0.02390021741344539,
+    "std": 0.8780191129915657,
+    "p95": 1.7480223507461512
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 0,
+  "case": "R 1ohm (Rs=1)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": true,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.003997196286445881,
+    "std": 0.15329234951882464,
+    "p95": 0.3079735355810612
+   },
+   "ph": {
+    "mean": 3.1077869241219597e-15,
+    "std": 1.8196430386287065e-13,
+    "p95": 3.384818953810023e-13
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 0,
+  "case": "R 1ohm (Rs=1)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": true,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -2.295941214924824e-14,
+    "std": 3.6516290711370883e-13,
+    "p95": 7.327471962526033e-13
+   },
+   "ph": {
+    "mean": 2.8788316627600144e-15,
+    "std": 1.8439091357574193e-13,
+    "p95": 3.6945059136544084e-13
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 0,
+  "case": "R 1ohm (Rs=1)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": true,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 1.2721305125662496e-05,
+    "std": 2.1454828327681455e-05,
+    "p95": 5.53646121259632e-05
+   },
+   "ph": {
+    "mean": 0.0030373210672891035,
+    "std": 0.028637129392131994,
+    "p95": 0.05754339403749066
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 0,
+  "case": "R 1ohm (Rs=1)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": true,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -6.505906924303417e-14,
+    "std": 2.434066359086174e-13,
+    "p95": 4.996003610813204e-13
+   },
+   "ph": {
+    "mean": 8.374479308429064e-15,
+    "std": 1.2764450899937117e-13,
+    "p95": 2.518016207277513e-13
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 0,
+  "case": "R 1ohm (Rs=1)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": true,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -4.8006043584791766e-14,
+    "std": 2.4255368464803793e-13,
+    "p95": 4.501954364855008e-13
+   },
+   "ph": {
+    "mean": -3.1481522037072263e-15,
+    "std": 1.3222373110745165e-13,
+    "p95": 2.532547324117586e-13
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 0,
+  "case": "R 1ohm (Rs=1)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 4.626521388217952e-13,
+    "std": 4.4411211819855843e-13,
+    "p95": 1.1324274851176597e-12
+   },
+   "ph": {
+    "mean": 5.9854466348982055e-15,
+    "std": 1.2155454201069973e-13,
+    "p95": 2.4859038259884756e-13
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 3,
+  "case": "R 10ohm (Rs=10)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.041321934026608845,
+    "std": 0.587622072403603,
+    "p95": 0.9793012136273725
+   },
+   "ph": {
+    "mean": 4.2209340461858156e-16,
+    "std": 1.6683559604852622e-14,
+    "p95": 3.1913878354461965e-14
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 3,
+  "case": "R 10ohm (Rs=10)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": true,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 3.2026913876492814e-08,
+    "std": 1.2457352083634391e-07,
+    "p95": 2.8577519017858285e-07
+   },
+   "ph": {
+    "mean": 8.41991035124349e-05,
+    "std": 0.0013485215528555206,
+    "p95": 0.002740512096816762
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 3,
+  "case": "R 10ohm (Rs=10)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": true,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.013558381598196645,
+    "std": 0.17697608054109154,
+    "p95": 0.3667669139763169
+   },
+   "ph": {
+    "mean": -0.0017563756896741029,
+    "std": 0.1064355782940308,
+    "p95": 0.20371297300741126
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 3,
+  "case": "R 10ohm (Rs=10)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": true,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.005270184663975641,
+    "std": 0.14413010380451413,
+    "p95": 0.27037573992076114
+   },
+   "ph": {
+    "mean": 3.596919396277777e-16,
+    "std": 1.9796954419826776e-14,
+    "p95": 3.822301228924643e-14
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 3,
+  "case": "R 10ohm (Rs=10)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": true,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 8.437694987151189e-16,
+    "std": 4.882404700635088e-14,
+    "p95": 8.881784197001252e-14
+   },
+   "ph": {
+    "mean": 1.8753810257051177e-15,
+    "std": 2.403969373545485e-14,
+    "p95": 4.5710179356763166e-14
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 3,
+  "case": "R 10ohm (Rs=10)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": true,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 8.265385309336181e-06,
+    "std": 1.5216903803518439e-05,
+    "p95": 4.1812456850198715e-05
+   },
+   "ph": {
+    "mean": 0.0029367772149280166,
+    "std": 0.027654130239448522,
+    "p95": 0.053680261088704
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 3,
+  "case": "R 10ohm (Rs=10)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": true,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -4.121147867408581e-14,
+    "std": 4.7140928158987556e-14,
+    "p95": 1.1102230246251565e-13
+   },
+   "ph": {
+    "mean": 1.077260906872006e-15,
+    "std": 1.5485065904512118e-14,
+    "p95": 2.9136566729004376e-14
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 3,
+  "case": "R 10ohm (Rs=10)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": true,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -1.2434497875801752e-15,
+    "std": 3.797262849012241e-14,
+    "p95": 6.661338147750939e-14
+   },
+   "ph": {
+    "mean": -1.1246791543336331e-15,
+    "std": 1.6580838985787548e-14,
+    "p95": 3.3338761483534484e-14
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 3,
+  "case": "R 10ohm (Rs=10)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 4.598188496629519e-12,
+    "std": 3.1822220257269675e-12,
+    "p95": 9.382494781107198e-12
+   },
+   "ph": {
+    "mean": 1.4891168398990954e-15,
+    "std": 1.511519564888634e-14,
+    "p95": 3.020685983722532e-14
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 0,
+  "case": "L 10mH, DCR 8ohm (R3=100, R4=10k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.0138176665323138,
+    "std": 0.557474173267522,
+    "p95": 0.9087851271074395
+   },
+   "ph": {
+    "mean": 0.0022316881616576867,
+    "std": 0.08187960700976744,
+    "p95": 0.1327850770073405
+   },
+   "L": {
+    "mean": 0.014905116517080418,
+    "std": 0.5930630427390459,
+    "p95": 0.9595703669775892
+   },
+   "dR": {
+    "mean": -0.00036995239235664815,
+    "std": 0.009741816351838309,
+    "p95": 0.01836291086876178
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 0,
+  "case": "L 10mH, DCR 8ohm (R3=100, R4=10k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": true,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.00017279061182406963,
+    "std": 4.992913941259835e-05,
+    "p95": 0.0002573109325454403
+   },
+   "ph": {
+    "mean": 0.00024840392516715183,
+    "std": 9.394156394807299e-05,
+    "p95": 0.0003922051510482736
+   },
+   "L": {
+    "mean": 0.0002831918257237831,
+    "std": 7.131770802364825e-05,
+    "p95": 0.0003963766522918632
+   },
+   "dR": {
+    "mean": -0.00012238006573888426,
+    "std": 5.084565331153705e-05,
+    "p95": 0.00020503451574604978
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 0,
+  "case": "L 10mH, DCR 8ohm (R3=100, R4=10k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": true,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.016037572691992262,
+    "std": 0.23762303233782858,
+    "p95": 0.4954460612466597
+   },
+   "ph": {
+    "mean": -0.004046013974532575,
+    "std": 0.13328200971308923,
+    "p95": 0.2740551732768882
+   },
+   "L": {
+    "mean": -0.01809965045451154,
+    "std": 0.2471595437726604,
+    "p95": 0.4831806570125671
+   },
+   "dR": {
+    "mean": 0.0009067943790538351,
+    "std": 0.0747567905594081,
+    "p95": 0.14726559449871063
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 0,
+  "case": "L 10mH, DCR 8ohm (R3=100, R4=10k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": true,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.003678600793067854,
+    "std": 0.07826619100102353,
+    "p95": 0.15444189104057313
+   },
+   "ph": {
+    "mean": -4.745498673775699e-05,
+    "std": 0.002083715568383973,
+    "p95": 0.0038208936768319986
+   },
+   "L": {
+    "mean": -0.003699752284609392,
+    "std": 0.07827796212572292,
+    "p95": 0.15448804524187065
+   },
+   "dR": {
+    "mean": -0.000268281778898384,
+    "std": 0.006357068684926437,
+    "p95": 0.012177086469317986
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 0,
+  "case": "L 10mH, DCR 8ohm (R3=100, R4=10k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": true,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 1.4354326441301523e-05,
+    "std": 0.00030722199640031105,
+    "p95": 0.0005954269641184062
+   },
+   "ph": {
+    "mean": -3.2343648516056854e-05,
+    "std": 0.000692638333251538,
+    "p95": 0.0013424118160380645
+   },
+   "L": {
+    "mean": -2.8911505944861916e-08,
+    "std": 6.187507723860365e-07,
+    "p95": 1.1992000459315477e-06
+   },
+   "dR": {
+    "mean": 1.8883372938159228e-05,
+    "std": 0.0004043604568071886,
+    "p95": 0.0007836958949520411
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 0,
+  "case": "L 10mH, DCR 8ohm (R3=100, R4=10k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": true,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -4.805967158922897e-05,
+    "std": 0.0013058236484088392,
+    "p95": 0.002716966201326552
+   },
+   "ph": {
+    "mean": 0.00040697667400179104,
+    "std": 0.014102947135232462,
+    "p95": 0.02558943061997807
+   },
+   "L": {
+    "mean": 0.00012979469554252887,
+    "std": 0.006325164661401349,
+    "p95": 0.011575913048453844
+   },
+   "dR": {
+    "mean": -0.0002272307404392855,
+    "std": 0.007739803854367293,
+    "p95": 0.014047179417767496
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 0,
+  "case": "L 10mH, DCR 8ohm (R3=100, R4=10k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": true,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.0003271407574231944,
+    "std": 0.00016900122501240162,
+    "p95": 0.0005980023293683522
+   },
+   "ph": {
+    "mean": -0.00034646385634670316,
+    "std": 0.00017899126243818995,
+    "p95": 0.0006333443028021496
+   },
+   "L": {
+    "mean": 0.0001731533838191357,
+    "std": 8.944685332110888e-05,
+    "p95": 0.000316507291793222
+   },
+   "dR": {
+    "mean": 0.0002161426098499959,
+    "std": 0.0001116638905407016,
+    "p95": 0.0003951128924525981
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 0,
+  "case": "L 10mH, DCR 8ohm (R3=100, R4=10k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": true,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.006926961580947877,
+    "std": 0.0027882056313304243,
+    "p95": 0.011333549179477485
+   },
+   "ph": {
+    "mean": 0.015610555646201127,
+    "std": 0.006293336057716161,
+    "p95": 0.0255633678773444
+   },
+   "L": {
+    "mean": 6.214584514374622e-06,
+    "std": 5.5611141884660886e-06,
+    "p95": 1.674328275691472e-05
+   },
+   "dR": {
+    "mean": -0.009113284904911215,
+    "std": 0.0036735339795552005,
+    "p95": 0.014922620110319416
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 0,
+  "case": "L 10mH, DCR 8ohm (R3=100, R4=10k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 1.1102230246251565e-14,
+    "std": 4.22262398777782e-14,
+    "p95": 8.881784197001252e-14
+   },
+   "ph": {
+    "mean": -3.796903546942497e-15,
+    "std": 1.7874287820155047e-14,
+    "p95": 3.818200281580791e-14
+   },
+   "L": {
+    "mean": 1.6875389974302379e-15,
+    "std": 4.4052037254402465e-14,
+    "p95": 8.881784197001252e-14
+   },
+   "dR": {
+    "mean": 2.7071678232459817e-15,
+    "std": 1.0032408643627485e-14,
+    "p95": 2.2293278334473113e-14
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 3,
+  "case": "L 100mH, DCR 60ohm (R3=1k, R4=10k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.010838200379387784,
+    "std": 0.5419896637856587,
+    "p95": 0.8924241264981556
+   },
+   "ph": {
+    "mean": -0.0013393003456423581,
+    "std": 0.06518512216388368,
+    "p95": 0.10594947148121767
+   },
+   "L": {
+    "mean": -0.011234792942746985,
+    "std": 0.5631858958834521,
+    "p95": 0.9250942653179447
+   },
+   "dR": {
+    "mean": -0.001079225404350268,
+    "std": 0.08362251256468883,
+    "p95": 0.16720596317094513
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 3,
+  "case": "L 100mH, DCR 60ohm (R3=1k, R4=10k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": true,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.00183914019194118,
+    "std": 0.0004795331054173276,
+    "p95": 0.0026363848502275467
+   },
+   "ph": {
+    "mean": 0.002403567227897892,
+    "std": 0.0008434441795435821,
+    "p95": 0.0037477683071196716
+   },
+   "L": {
+    "mean": 0.0026402700738250573,
+    "std": 0.0006021531209885894,
+    "p95": 0.00361447777855961
+   },
+   "dR": {
+    "mean": -0.012076164628683444,
+    "std": 0.004576435414755331,
+    "p95": 0.01922328362518364
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 3,
+  "case": "L 100mH, DCR 60ohm (R3=1k, R4=10k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": true,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.0018058092198537158,
+    "std": 0.028884923146252156,
+    "p95": 0.05525622764621538
+   },
+   "ph": {
+    "mean": -0.0005690133257095777,
+    "std": 0.01674822758473255,
+    "p95": 0.03317473707269149
+   },
+   "L": {
+    "mean": 0.0016118672229757714,
+    "std": 0.029414523547093847,
+    "p95": 0.05557447169969753
+   },
+   "dR": {
+    "mean": 0.004201124233748914,
+    "std": 0.09347506950548079,
+    "p95": 0.17982512080411012
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 3,
+  "case": "L 100mH, DCR 60ohm (R3=1k, R4=10k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": true,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.004032439761879036,
+    "std": 0.07817757006524309,
+    "p95": 0.13873574868947747
+   },
+   "ph": {
+    "mean": -0.0009888314034308975,
+    "std": 0.011405477467161565,
+    "p95": 0.020591844925668446
+   },
+   "L": {
+    "mean": -0.004361272448183184,
+    "std": 0.08173697671682013,
+    "p95": 0.1445114598197761
+   },
+   "dR": {
+    "mean": 0.0029555690175284326,
+    "std": 0.025216499463843082,
+    "p95": 0.05138871183201416
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 3,
+  "case": "L 100mH, DCR 60ohm (R3=1k, R4=10k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": true,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 1.3929146405944337e-05,
+    "std": 0.00041966805361741345,
+    "p95": 0.0007955787788610501
+   },
+   "ph": {
+    "mean": -3.8372505227639447e-05,
+    "std": 0.0011576753198774084,
+    "p95": 0.0021948271957416424
+   },
+   "L": {
+    "mean": 1.1159505883817644e-06,
+    "std": 3.3765110416071264e-05,
+    "p95": 6.40264539808477e-05
+   },
+   "dR": {
+    "mean": 0.0002187791389077347,
+    "std": 0.006599661641674538,
+    "p95": 0.012512153899630006
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 3,
+  "case": "L 100mH, DCR 60ohm (R3=1k, R4=10k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": true,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.0007871046057613907,
+    "std": 0.007092837487066753,
+    "p95": 0.014167561085994804
+   },
+   "ph": {
+    "mean": 0.0013732450726888826,
+    "std": 0.01643591569298179,
+    "p95": 0.031405511843089595
+   },
+   "L": {
+    "mean": -0.0003338300190422139,
+    "std": 0.002921969938672582,
+    "p95": 0.005695845556150102
+   },
+   "dR": {
+    "mean": -0.007998700665598733,
+    "std": 0.09406795589445864,
+    "p95": 0.1807651627384675
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 3,
+  "case": "L 100mH, DCR 60ohm (R3=1k, R4=10k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": true,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.00022231379089450166,
+    "std": 0.00011183215374252095,
+    "p95": 0.0003948421343691332
+   },
+   "ph": {
+    "mean": -0.0006924536631961526,
+    "std": 0.00034832113354322234,
+    "p95": 0.0012298127534763762
+   },
+   "L": {
+    "mean": -8.520966702718624e-06,
+    "std": 4.2859905783545795e-06,
+    "p95": 1.5132686815300108e-05
+   },
+   "dR": {
+    "mean": 0.003930311644493998,
+    "std": 0.0019770459969551736,
+    "p95": 0.006980327474776258
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 3,
+  "case": "L 100mH, DCR 60ohm (R3=1k, R4=10k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": true,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.005719200517182577,
+    "std": 0.002121829172090978,
+    "p95": 0.009025079772624345
+   },
+   "ph": {
+    "mean": 0.015514696254800932,
+    "std": 0.0057657546932984765,
+    "p95": 0.024504038411565513
+   },
+   "L": {
+    "mean": -0.0005519830448415863,
+    "std": 0.0002027953378403059,
+    "p95": 0.00086669831106001
+   },
+   "dR": {
+    "mean": -0.08849995910915308,
+    "std": 0.03288638493800791,
+    "p95": 0.13977098353234715
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 3,
+  "case": "L 100mH, DCR 60ohm (R3=1k, R4=10k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 7.94919685631612e-15,
+    "std": 2.5002534385916295e-14,
+    "p95": 4.440892098500626e-14
+   },
+   "ph": {
+    "mean": -2.2404153886096787e-15,
+    "std": 7.176869186709176e-15,
+    "p95": 1.4440177309398292e-14
+   },
+   "L": {
+    "mean": 7.771561172376096e-15,
+    "std": 2.4820356023529503e-14,
+    "p95": 4.440892098500626e-14
+   },
+   "dR": {
+    "mean": 1.9525714378687555e-14,
+    "std": 3.8046349483809744e-14,
+    "p95": 7.815970093361102e-14
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 1,
+  "case": "C 4.7e-08F, ESR 3.39ohm (R4=330)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.00916849825145145,
+    "std": 0.4070612912659387,
+    "p95": 0.6980202649482002
+   },
+   "ph": {
+    "mean": 2.5867608618240557e-05,
+    "std": 0.017718666568671833,
+    "p95": 0.029256501562660197
+   },
+   "C": {
+    "mean": -0.007513405618573632,
+    "std": 0.4068813586782493,
+    "p95": 0.6931474785516266
+   },
+   "dtan": {
+    "mean": 4.515228458560859e-07,
+    "std": 0.0003092491672325111,
+    "p95": 0.0005106223215504
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 1,
+  "case": "C 4.7e-08F, ESR 3.39ohm (R4=330)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": true,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.022396629601688863,
+    "std": 0.012030682897430124,
+    "p95": 0.04291341388062919
+   },
+   "ph": {
+    "mean": 0.0004558603397438556,
+    "std": 0.00014147544295058087,
+    "p95": 0.0006840934339860474
+   },
+   "C": {
+    "mean": 0.02240349077892807,
+    "std": 0.012036396718166482,
+    "p95": 0.04293215511298798
+   },
+   "dtan": {
+    "mean": 7.956265881761454e-06,
+    "std": 2.469212928358538e-06,
+    "p95": 1.1939685871097566e-05
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 1,
+  "case": "C 4.7e-08F, ESR 3.39ohm (R4=330)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": true,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.0044648600050326784,
+    "std": 0.05228844756526856,
+    "p95": 0.10365472351303916
+   },
+   "ph": {
+    "mean": 0.002885448748804687,
+    "std": 0.027494166759199124,
+    "p95": 0.053964491725557846
+   },
+   "C": {
+    "mean": -0.00442332469111002,
+    "std": 0.052277161775629265,
+    "p95": 0.10351150880925918
+   },
+   "dtan": {
+    "mean": 5.0360715373612404e-05,
+    "std": 0.0004798639653872575,
+    "p95": 0.0009418581303320705
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 1,
+  "case": "C 4.7e-08F, ESR 3.39ohm (R4=330)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": true,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.0029280637768279495,
+    "std": 0.08378531622858837,
+    "p95": 0.16430249040257347
+   },
+   "ph": {
+    "mean": 0.004266167925521724,
+    "std": 0.27492620755939695,
+    "p95": 0.5461326974765263
+   },
+   "C": {
+    "mean": 0.0041489692260518575,
+    "std": 0.08406512178161049,
+    "p95": 0.15940085348591637
+   },
+   "dtan": {
+    "mean": 7.447041656155729e-05,
+    "std": 0.004798487492531886,
+    "p95": 0.009532060011653513
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 1,
+  "case": "C 4.7e-08F, ESR 3.39ohm (R4=330)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": true,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 2.4737845063960153e-06,
+    "std": 0.00010639045054016376,
+    "p95": 0.0002169529594037155
+   },
+   "ph": {
+    "mean": -1.7009565722330844e-05,
+    "std": 0.000729205723739581,
+    "p95": 0.0014867663124912397
+   },
+   "C": {
+    "mean": -2.4804437888104047e-06,
+    "std": 0.00010702575607558002,
+    "p95": 0.00021828455590067175
+   },
+   "dtan": {
+    "mean": -2.9687291980171905e-07,
+    "std": 1.2727043977262831e-05,
+    "p95": 2.594897419052138e-05
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 1,
+  "case": "C 4.7e-08F, ESR 3.39ohm (R4=330)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": true,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.003486988231535415,
+    "std": 0.15966998496509133,
+    "p95": 0.3244524989386857
+   },
+   "ph": {
+    "mean": 1.9496496811046815e-05,
+    "std": 0.0157396979145833,
+    "p95": 0.032859183118953195
+   },
+   "C": {
+    "mean": 0.003744795798236078,
+    "std": 0.1596556950207672,
+    "p95": 0.324498947542238
+   },
+   "dtan": {
+    "mean": 3.4031566945446487e-07,
+    "std": 0.0002747096415571748,
+    "p95": 0.0005735011240303938
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 1,
+  "case": "C 4.7e-08F, ESR 3.39ohm (R4=330)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": true,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 7.37363503022781e-05,
+    "std": 3.4055955367800324e-05,
+    "p95": 0.00012720958952439076
+   },
+   "ph": {
+    "mean": 0.0008345998766792255,
+    "std": 0.0003852317202275801,
+    "p95": 0.0014392409915741625
+   },
+   "C": {
+    "mean": -7.299509880671628e-05,
+    "std": 3.371012193753828e-05,
+    "p95": 0.0001259219048815874
+   },
+   "dtan": {
+    "mean": 1.4566519556702229e-05,
+    "std": 6.72356367966293e-06,
+    "p95": 2.511950063329165e-05
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 1,
+  "case": "C 4.7e-08F, ESR 3.39ohm (R4=330)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": true,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.0014443997416563547,
+    "std": 0.0006043841463142519,
+    "p95": 0.002369927127655602
+   },
+   "ph": {
+    "mean": -0.012445495438490703,
+    "std": 0.00449162231411752,
+    "p95": 0.01903587963334177
+   },
+   "C": {
+    "mean": -0.001452570688212962,
+    "std": 0.0006066072991878275,
+    "p95": 0.002380951286979349
+   },
+   "dtan": {
+    "mean": -0.00021721490481760002,
+    "std": 7.83936049602029e-05,
+    "p95": 0.00033223881570798857
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 1,
+  "case": "C 4.7e-08F, ESR 3.39ohm (R4=330)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -7.105427357601002e-16,
+    "std": 6.26497161867107e-14,
+    "p95": 1.2212453270876722e-13
+   },
+   "ph": {
+    "mean": -3.0439764692829313e-14,
+    "std": 8.115785365242512e-14,
+    "p95": 1.6125148781730762e-13
+   },
+   "C": {
+    "mean": 1.865174681370263e-15,
+    "std": 6.206213348914254e-14,
+    "p95": 1.2212453270876722e-13
+   },
+   "dtan": {
+    "mean": -5.312868200935128e-16,
+    "std": 1.4164747240516388e-15,
+    "p95": 2.8143611573161473e-15
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 4,
+  "case": "C 1e-06F, ESR 0.318ohm (R4=10k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.009427880386504972,
+    "std": 0.5056145717784157,
+    "p95": 0.8517395285894325
+   },
+   "ph": {
+    "mean": -0.00698506764820878,
+    "std": 0.11755033596827674,
+    "p95": 0.21945821697113405
+   },
+   "C": {
+    "mean": -0.006683496469294827,
+    "std": 0.5054907352972948,
+    "p95": 0.8450637867918998
+   },
+   "dtan": {
+    "mean": -0.00012190888436197094,
+    "std": 0.0020516484368955233,
+    "p95": 0.003830276347828365
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 4,
+  "case": "C 1e-06F, ESR 0.318ohm (R4=10k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": true,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.010827455500578065,
+    "std": 0.004240285397718385,
+    "p95": 0.017904911193479256
+   },
+   "ph": {
+    "mean": 0.0018049935798159064,
+    "std": 0.0006107111083088746,
+    "p95": 0.0028051553523793776
+   },
+   "C": {
+    "mean": -0.010822899072219182,
+    "std": 0.004238260004236909,
+    "p95": 0.017896694873718033
+   },
+   "dtan": {
+    "mean": 3.150311356784988e-05,
+    "std": 1.0658930970223565e-05,
+    "p95": 4.895924832431758e-05
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 4,
+  "case": "C 1e-06F, ESR 0.318ohm (R4=10k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": true,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.0031573793510783154,
+    "std": 0.027617063908473252,
+    "p95": 0.05149290358121615
+   },
+   "ph": {
+    "mean": 0.00024249101483054167,
+    "std": 0.015097054353455656,
+    "p95": 0.02920946124165517
+   },
+   "C": {
+    "mean": -0.003145802547414789,
+    "std": 0.027614478534292827,
+    "p95": 0.05146123528510403
+   },
+   "dtan": {
+    "mean": 4.232340178455036e-06,
+    "std": 0.00026349358800414473,
+    "p95": 0.0005098018565177884
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 4,
+  "case": "C 1e-06F, ESR 0.318ohm (R4=10k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": true,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.003294573813028201,
+    "std": 0.07296161388544464,
+    "p95": 0.13219860758275245
+   },
+   "ph": {
+    "mean": 0.00030673180224998484,
+    "std": 0.012526544534778552,
+    "p95": 0.02516656078978771
+   },
+   "C": {
+    "mean": 0.0033506251971044065,
+    "std": 0.07296550190189814,
+    "p95": 0.13224241745763196
+   },
+   "dtan": {
+    "mean": 5.353533360537824e-06,
+    "std": 0.0002186296801174038,
+    "p95": 0.00043924000765469017
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 4,
+  "case": "C 1e-06F, ESR 0.318ohm (R4=10k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": true,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -1.537135680416135e-05,
+    "std": 0.000283138774892952,
+    "p95": 0.0005474476454747633
+   },
+   "ph": {
+    "mean": -0.0001620696938003407,
+    "std": 0.0029635212345799273,
+    "p95": 0.005725150338530903
+   },
+   "C": {
+    "mean": 1.522290785960223e-05,
+    "std": 0.0002779868819542449,
+    "p95": 0.0005369531906540547
+   },
+   "dtan": {
+    "mean": -2.8286499400812256e-06,
+    "std": 5.17232544452967e-05,
+    "p95": 9.992283381919198e-05
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 4,
+  "case": "C 1e-06F, ESR 0.318ohm (R4=10k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": true,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.0002734183427425929,
+    "std": 0.007143862545175978,
+    "p95": 0.012934701574457974
+   },
+   "ph": {
+    "mean": -0.001171068357093591,
+    "std": 0.014300309584882435,
+    "p95": 0.027428603456246897
+   },
+   "C": {
+    "mean": -0.0002718311715087296,
+    "std": 0.007128299952661246,
+    "p95": 0.012909575655275507
+   },
+   "dtan": {
+    "mean": -2.0438957298245818e-05,
+    "std": 0.00024958774847846574,
+    "p95": 0.00047871972565162853
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 4,
+  "case": "C 1e-06F, ESR 0.318ohm (R4=10k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": true,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.0009107947621257662,
+    "std": 0.0004385564458183989,
+    "p95": 0.0016598864693206925
+   },
+   "ph": {
+    "mean": 0.0016589916032193393,
+    "std": 0.0007989465817500286,
+    "p95": 0.0030237258535661727
+   },
+   "C": {
+    "mean": 0.0009137520955874833,
+    "std": 0.0004400049756862512,
+    "p95": 0.0016653307684144634
+   },
+   "dtan": {
+    "mean": 2.8954895740173147e-05,
+    "std": 1.3944263263713717e-05,
+    "p95": 5.2774027430543575e-05
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 4,
+  "case": "C 1e-06F, ESR 0.318ohm (R4=10k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": true,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.0013743737118057987,
+    "std": 0.0038817519083945667,
+    "p95": 0.007880359202809268
+   },
+   "ph": {
+    "mean": -0.014329381368347686,
+    "std": 0.005679268323630766,
+    "p95": 0.023160243202026736
+   },
+   "C": {
+    "mean": 0.0013531497499932766,
+    "std": 0.003886442694620886,
+    "p95": 0.00786910081503
+   },
+   "dtan": {
+    "mean": -0.00025009507008425766,
+    "std": 9.912198745100887e-05,
+    "p95": 0.00040422276228059735
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 4,
+  "case": "C 1e-06F, ESR 0.318ohm (R4=10k)",
+  "scen": "S2",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -3.410605131648481e-14,
+    "std": 2.187546603807597e-14,
+    "p95": 6.661338147750939e-14
+   },
+   "ph": {
+    "mean": 5.576573621844965e-15,
+    "std": 8.085279573374059e-15,
+    "p95": 1.8948823546268785e-14
+   },
+   "C": {
+    "mean": 3.597122599785507e-14,
+    "std": 2.1382206447161276e-14,
+    "p95": 6.661338147750939e-14
+   },
+   "dtan": {
+    "mean": 9.72937008736352e-17,
+    "std": 1.411099756922469e-16,
+    "p95": 3.3074671473842797e-16
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 2,
+  "case": "R 1kohm (R3=1k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.0013210172527249764,
+    "std": 0.08563790840894635,
+    "p95": 0.1640372804141742
+   },
+   "ph": {
+    "mean": 3.7751841172383947e-16,
+    "std": 1.0471024296744499e-14,
+    "p95": 2.125235225058961e-14
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 2,
+  "case": "R 1kohm (R3=1k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": true,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 1.1951399793108664e-05,
+    "std": 8.175428579633658e-06,
+    "p95": 2.8540932790477314e-05
+   },
+   "ph": {
+    "mean": 0.02374770470005094,
+    "std": 0.009791968128482771,
+    "p95": 0.04064259984829379
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 2,
+  "case": "R 1kohm (R3=1k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": true,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.002533918264091062,
+    "std": 0.030420057912136592,
+    "p95": 0.06176483179089587
+   },
+   "ph": {
+    "mean": -0.0028805651986733584,
+    "std": 0.01661560778684312,
+    "p95": 0.031259453487238256
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 2,
+  "case": "R 1kohm (R3=1k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": true,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.0011193330971626114,
+    "std": 0.02534553618933999,
+    "p95": 0.051859982457279595
+   },
+   "ph": {
+    "mean": -1.727081204779899e-16,
+    "std": 1.0178738676801455e-14,
+    "p95": 2.1973159916156003e-14
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 2,
+  "case": "R 1kohm (R3=1k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": true,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -5.773159728050814e-15,
+    "std": 4.399680588488717e-14,
+    "p95": 8.881784197001252e-14
+   },
+   "ph": {
+    "mean": 6.062880739465312e-16,
+    "std": 9.433374954138769e-15,
+    "p95": 1.888466542863649e-14
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 2,
+  "case": "R 1kohm (R3=1k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": true,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -1.2865334539924333e-07,
+    "std": 8.345052292015718e-07,
+    "p95": 1.6720304746309356e-06
+   },
+   "ph": {
+    "mean": 2.305244854346816e-05,
+    "std": 0.008413550105960028,
+    "p95": 0.017300128345729093
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 2,
+  "case": "R 1kohm (R3=1k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": true,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -7.460698725481052e-15,
+    "std": 4.8178745650462664e-14,
+    "p95": 8.881784197001252e-14
+   },
+   "ph": {
+    "mean": -1.275439304927991e-15,
+    "std": 1.085931135814637e-14,
+    "p95": 2.2243388888966427e-14
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 2,
+  "case": "R 1kohm (R3=1k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": true,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -2.264854970235319e-15,
+    "std": 4.987249901210105e-14,
+    "p95": 8.881784197001252e-14
+   },
+   "ph": {
+    "mean": -1.37865122997399e-16,
+    "std": 9.514298998996488e-15,
+    "p95": 1.9116632798118023e-14
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 2,
+  "case": "R 1kohm (R3=1k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -8.171241461241152e-15,
+    "std": 5.080659114356492e-14,
+    "p95": 1.1102230246251565e-13
+   },
+   "ph": {
+    "mean": 9.365201493586072e-16,
+    "std": 9.657221917719039e-15,
+    "p95": 1.9249034742890756e-14
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 7,
+  "case": "R 100kohm (R3=100k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.003018579048635628,
+    "std": 0.09395776307666165,
+    "p95": 0.18426849213488297
+   },
+   "ph": {
+    "mean": -5.785039355605814e-16,
+    "std": 1.0416467016628748e-14,
+    "p95": 2.332010861031123e-14
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 7,
+  "case": "R 100kohm (R3=100k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": true,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.0012399133046453238,
+    "std": 0.0007785620026945229,
+    "p95": 0.0025657577103949105
+   },
+   "ph": {
+    "mean": -0.2464803128373106,
+    "std": 0.09020939366931335,
+    "p95": 0.38817636903271663
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 7,
+  "case": "R 100kohm (R3=100k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": true,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.0031418232387789846,
+    "std": 0.031341531058089164,
+    "p95": 0.06241478649551153
+   },
+   "ph": {
+    "mean": -0.0007289231105994502,
+    "std": 0.017146814716048474,
+    "p95": 0.032669917605074754
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 7,
+  "case": "R 100kohm (R3=100k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": true,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.00051626082841425,
+    "std": 0.02790606555320357,
+    "p95": 0.04890594101655598
+   },
+   "ph": {
+    "mean": 1.2613454624612132e-15,
+    "std": 1.0436607142805116e-14,
+    "p95": 2.0488678582654442e-14
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 7,
+  "case": "R 100kohm (R3=100k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": true,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -9.947598300641402e-15,
+    "std": 4.6888400246031694e-14,
+    "p95": 8.881784197001252e-14
+   },
+   "ph": {
+    "mean": 3.409944299252159e-16,
+    "std": 1.0441353891134089e-14,
+    "p95": 2.2245965427766156e-14
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 7,
+  "case": "R 100kohm (R3=100k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": true,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 9.481430667257484e-08,
+    "std": 9.413005132035935e-07,
+    "p95": 2.143589969971771e-06
+   },
+   "ph": {
+    "mean": 0.0007891392024272248,
+    "std": 0.00866063387796567,
+    "p95": 0.01722960169128531
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 7,
+  "case": "R 100kohm (R3=100k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": true,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -2.176037128265307e-15,
+    "std": 5.24123237101778e-14,
+    "p95": 1.1102230246251565e-13
+   },
+   "ph": {
+    "mean": -1.4801234299577909e-15,
+    "std": 1.037522532916376e-14,
+    "p95": 2.2001697911293296e-14
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 7,
+  "case": "R 100kohm (R3=100k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": true,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -3.241851231905457e-15,
+    "std": 4.8519582027271014e-14,
+    "p95": 8.881784197001252e-14
+   },
+   "ph": {
+    "mean": -3.0020836530301493e-16,
+    "std": 9.72251448440495e-15,
+    "p95": 2.146192097010935e-14
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 7,
+  "case": "R 100kohm (R3=100k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -3.9968028886505635e-15,
+    "std": 5.3284388277689105e-14,
+    "p95": 1.0602629885170226e-13
+   },
+   "ph": {
+    "mean": 3.289520857451815e-16,
+    "std": 9.238319781057714e-15,
+    "p95": 1.9963151419619363e-14
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 0,
+  "case": "R 1ohm (Rs=1)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.008727318540822182,
+    "std": 0.19943091399659751,
+    "p95": 0.36200184677945385
+   },
+   "ph": {
+    "mean": -2.2011181202732244e-15,
+    "std": 1.4643117740582178e-13,
+    "p95": 2.889220426750246e-13
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 0,
+  "case": "R 1ohm (Rs=1)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": true,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 3.219775148721737e-08,
+    "std": 1.2618773231423623e-07,
+    "p95": 2.7176596750777543e-07
+   },
+   "ph": {
+    "mean": 7.316855535607467e-05,
+    "std": 0.0013066983896537117,
+    "p95": 0.0025353052946513544
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 0,
+  "case": "R 1ohm (Rs=1)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": true,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.02286976225923008,
+    "std": 1.5687346965812548,
+    "p95": 3.1927308606930707
+   },
+   "ph": {
+    "mean": -0.011648057679087746,
+    "std": 0.8432474961973703,
+    "p95": 1.6165898498163875
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 0,
+  "case": "R 1ohm (Rs=1)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": true,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.0024096231441854687,
+    "std": 0.03063475764455862,
+    "p95": 0.06269984886401013
+   },
+   "ph": {
+    "mean": 1.2935947769074848e-14,
+    "std": 1.5340130230715365e-13,
+    "p95": 2.959784999599185e-13
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 0,
+  "case": "R 1ohm (Rs=1)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": true,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 5.4622972811557705e-15,
+    "std": 3.19566083186955e-13,
+    "p95": 6.944445019030352e-13
+   },
+   "ph": {
+    "mean": 1.1530809437720378e-15,
+    "std": 1.8931102974174694e-13,
+    "p95": 3.5855090596276213e-13
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 0,
+  "case": "R 1ohm (Rs=1)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": true,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 1.215480830074611e-06,
+    "std": 1.756424305738541e-06,
+    "p95": 4.411983536289907e-06
+   },
+   "ph": {
+    "mean": 0.00038151783894970094,
+    "std": 0.008817753571005242,
+    "p95": 0.015378265625574549
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 0,
+  "case": "R 1ohm (Rs=1)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": true,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -9.041656312547275e-14,
+    "std": 2.589489735736821e-13,
+    "p95": 4.773959005888173e-13
+   },
+   "ph": {
+    "mean": 1.4047298563311018e-14,
+    "std": 1.2915746335003726e-13,
+    "p95": 2.6481106969818316e-13
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 0,
+  "case": "R 1ohm (Rs=1)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": true,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -4.8627768478581856e-14,
+    "std": 2.6042636312550526e-13,
+    "p95": 4.884981308350689e-13
+   },
+   "ph": {
+    "mean": 1.3222702406682408e-14,
+    "std": 1.359422306303872e-13,
+    "p95": 2.5737795687728254e-13
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 0,
+  "case": "R 1ohm (Rs=1)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 4.462208380573429e-13,
+    "std": 4.485052383381364e-13,
+    "p95": 1.112443470674406e-12
+   },
+   "ph": {
+    "mean": 9.831958348787548e-15,
+    "std": 1.3833847083707144e-13,
+    "p95": 2.7354813736333205e-13
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 3,
+  "case": "R 10ohm (Rs=10)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.01585238673758931,
+    "std": 0.2220757782115302,
+    "p95": 0.42313052002901463
+   },
+   "ph": {
+    "mean": 6.285190000383407e-16,
+    "std": 1.598068928722863e-14,
+    "p95": 3.1129364947302315e-14
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 3,
+  "case": "R 10ohm (Rs=10)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": true,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 1.3432789192080463e-08,
+    "std": 9.654915330122858e-08,
+    "p95": 1.8635781029452384e-07
+   },
+   "ph": {
+    "mean": -4.2931115596669125e-05,
+    "std": 0.0011705248463174205,
+    "p95": 0.0022712158846660757
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 3,
+  "case": "R 10ohm (Rs=10)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": true,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.006667116202689717,
+    "std": 0.17171395451147836,
+    "p95": 0.33785171466988756
+   },
+   "ph": {
+    "mean": -0.000903240793441661,
+    "std": 0.1037408000969301,
+    "p95": 0.20830482252461419
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 3,
+  "case": "R 10ohm (Rs=10)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": true,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.001536082874280087,
+    "std": 0.027956554881089328,
+    "p95": 0.050358301538630516
+   },
+   "ph": {
+    "mean": 8.552634727862303e-16,
+    "std": 1.92702904123656e-14,
+    "p95": 3.7121216601448013e-14
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 3,
+  "case": "R 10ohm (Rs=10)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": true,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 3.641531520770513e-15,
+    "std": 4.879132821567725e-14,
+    "p95": 8.881784197001252e-14
+   },
+   "ph": {
+    "mean": -1.2564901940529346e-15,
+    "std": 2.121443317120549e-14,
+    "p95": 4.225004554946772e-14
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 3,
+  "case": "R 10ohm (Rs=10)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": true,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 9.538685554311144e-07,
+    "std": 1.7929371220820436e-06,
+    "p95": 4.1549439788735035e-06
+   },
+   "ph": {
+    "mean": 0.0008947178982274712,
+    "std": 0.008362685814911829,
+    "p95": 0.0152400605087326
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 3,
+  "case": "R 10ohm (Rs=10)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": true,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -4.889422200449189e-14,
+    "std": 5.2632865450910736e-14,
+    "p95": 1.4432899320127035e-13
+   },
+   "ph": {
+    "mean": 6.028513052915097e-16,
+    "std": 1.707933201911794e-14,
+    "p95": 3.412366455658827e-14
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 3,
+  "case": "R 10ohm (Rs=10)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": true,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 3.552713678800501e-15,
+    "std": 3.967815125609398e-14,
+    "p95": 6.661338147750939e-14
+   },
+   "ph": {
+    "mean": -2.5650347004043824e-16,
+    "std": 1.552744301231516e-14,
+    "p95": 2.9609874000834246e-14
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 3,
+  "case": "R 10ohm (Rs=10)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 4.666533826025443e-12,
+    "std": 3.305836717887345e-12,
+    "p95": 9.803269307440129e-12
+   },
+   "ph": {
+    "mean": 7.885191925503047e-16,
+    "std": 1.4251317580243798e-14,
+    "p95": 2.6905439816336388e-14
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 0,
+  "case": "L 10mH, DCR 8ohm (R3=100, R4=10k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.008913095935751337,
+    "std": 0.18945442030887175,
+    "p95": 0.37675160502266425
+   },
+   "ph": {
+    "mean": 0.00016123279527495283,
+    "std": 0.026792165895846532,
+    "p95": 0.0518564554897415
+   },
+   "L": {
+    "mean": 0.008993446891560319,
+    "std": 0.1999151812128304,
+    "p95": 0.40028464196315666
+   },
+   "dR": {
+    "mean": 0.0005996166671170151,
+    "std": 0.007585777966984227,
+    "p95": 0.016023622102654043
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 0,
+  "case": "L 10mH, DCR 8ohm (R3=100, R4=10k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": true,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.00017887576879429545,
+    "std": 4.866144172447413e-05,
+    "p95": 0.00026496021554800464
+   },
+   "ph": {
+    "mean": 0.00026209878994464707,
+    "std": 9.518795840907497e-05,
+    "p95": 0.00040508569232305757
+   },
+   "L": {
+    "mean": 0.00029536351405043957,
+    "std": 6.79451739285219e-05,
+    "p95": 0.000400762813785871
+   },
+   "dR": {
+    "mean": -0.0001294023490822518,
+    "std": 5.1903446320820994e-05,
+    "p95": 0.00020963341733604138
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 0,
+  "case": "L 10mH, DCR 8ohm (R3=100, R4=10k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": true,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.010169109042520797,
+    "std": 0.23494587177385945,
+    "p95": 0.45057589298480843
+   },
+   "ph": {
+    "mean": -0.009208951610158087,
+    "std": 0.13297820959208806,
+    "p95": 0.24541261725615332
+   },
+   "L": {
+    "mean": -0.014530746903538994,
+    "std": 0.24241841396474786,
+    "p95": 0.4457373848850876
+   },
+   "dR": {
+    "mean": 0.004213297996345897,
+    "std": 0.0752470296223941,
+    "p95": 0.13769601442394178
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 0,
+  "case": "L 10mH, DCR 8ohm (R3=100, R4=10k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": true,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.0004966501521301847,
+    "std": 0.015304085756680637,
+    "p95": 0.031635018333182593
+   },
+   "ph": {
+    "mean": 1.6148522526627993e-05,
+    "std": 0.0004042116982463852,
+    "p95": 0.0007460769259663925
+   },
+   "L": {
+    "mean": 0.000503826164024046,
+    "std": 0.01531376596788411,
+    "p95": 0.03177246844701663
+   },
+   "dR": {
+    "mean": 3.087593970803937e-05,
+    "std": 0.001233713454335014,
+    "p95": 0.002372878265480781
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 0,
+  "case": "L 10mH, DCR 8ohm (R3=100, R4=10k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": true,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 4.994172622767579e-05,
+    "std": 0.00029620409709785997,
+    "p95": 0.0005873624191798925
+   },
+   "ph": {
+    "mean": -0.0001125771634425021,
+    "std": 0.0006677960822073756,
+    "p95": 0.0013241550075415482
+   },
+   "L": {
+    "mean": -1.0058509851695873e-07,
+    "std": 5.965607051796908e-07,
+    "p95": 1.1829645457650516e-06
+   },
+   "dR": {
+    "mean": 6.572342419199373e-05,
+    "std": 0.0003898577603102847,
+    "p95": 0.0007730426394407345
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 0,
+  "case": "L 10mH, DCR 8ohm (R3=100, R4=10k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": true,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -2.2047582547157774e-05,
+    "std": 0.0003701946856871426,
+    "p95": 0.0007595237213114942
+   },
+   "ph": {
+    "mean": 0.00021470735280495473,
+    "std": 0.004242523491516331,
+    "p95": 0.007858540978318446
+   },
+   "L": {
+    "mean": 7.310453276820894e-05,
+    "std": 0.0019262993291745628,
+    "p95": 0.003598207378715522
+   },
+   "dR": {
+    "mean": -0.00011951260915246919,
+    "std": 0.0023260314658705124,
+    "p95": 0.0043293529438434225
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 0,
+  "case": "L 10mH, DCR 8ohm (R3=100, R4=10k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": true,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.0003493220488839377,
+    "std": 0.00015156146816133656,
+    "p95": 0.0005954456090062618
+   },
+   "ph": {
+    "mean": -0.00036995536738280565,
+    "std": 0.00016052165902760753,
+    "p95": 0.0006306362134369684
+   },
+   "L": {
+    "mean": 0.00018489376516588328,
+    "std": 8.02159610562539e-05,
+    "p95": 0.00031515423576822227
+   },
+   "dR": {
+    "mean": 0.00023079786350336918,
+    "std": 0.0001001415547127191,
+    "p95": 0.0003934234600481366
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 0,
+  "case": "L 10mH, DCR 8ohm (R3=100, R4=10k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": true,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.007047855678835591,
+    "std": 0.002709659811214427,
+    "p95": 0.011388803800529423
+   },
+   "ph": {
+    "mean": 0.015883172056823523,
+    "std": 0.006116772288731582,
+    "p95": 0.025688371522455948
+   },
+   "L": {
+    "mean": 6.373575597429237e-06,
+    "std": 5.60694218264507e-06,
+    "p95": 1.6935960820418927e-05
+   },
+   "dR": {
+    "mean": -0.009272427804308392,
+    "std": 0.0035704373643392815,
+    "p95": 0.01499557386986825
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 0,
+  "case": "L 10mH, DCR 8ohm (R3=100, R4=10k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 1.4388490399142028e-14,
+    "std": 4.114619733077845e-14,
+    "p95": 8.881784197001252e-14
+   },
+   "ph": {
+    "mean": -2.811168972255503e-15,
+    "std": 1.728531553825316e-14,
+    "p95": 3.346629728875598e-14
+   },
+   "L": {
+    "mean": 5.062616992290714e-15,
+    "std": 4.383683762812357e-14,
+    "p95": 8.881784197001252e-14
+   },
+   "dR": {
+    "mean": 2.3945290195115378e-15,
+    "std": 9.822014733602877e-15,
+    "p95": 1.9539925233402755e-14
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 3,
+  "case": "L 100mH, DCR 60ohm (R3=1k, R4=10k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.0057731326558269295,
+    "std": 0.20295217404681024,
+    "p95": 0.3929462940769166
+   },
+   "ph": {
+    "mean": -0.0023398821574763798,
+    "std": 0.024305234834242826,
+    "p95": 0.049000415378151564
+   },
+   "L": {
+    "mean": -0.006548733430993536,
+    "std": 0.2096255878586348,
+    "p95": 0.41170365457617175
+   },
+   "dR": {
+    "mean": 0.009139806309039074,
+    "std": 0.07789526275135815,
+    "p95": 0.15330056624319888
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 3,
+  "case": "L 100mH, DCR 60ohm (R3=1k, R4=10k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": true,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.001907121272011736,
+    "std": 0.0005263303221766294,
+    "p95": 0.002750779063462882
+   },
+   "ph": {
+    "mean": 0.0023752488415117443,
+    "std": 0.0008608595897313241,
+    "p95": 0.0036902236721388926
+   },
+   "L": {
+    "mean": 0.0026988134993882083,
+    "std": 0.0006613736323790027,
+    "p95": 0.003764665339328621
+   },
+   "dR": {
+    "mean": -0.011880103242419778,
+    "std": 0.004648846143781308,
+    "p95": 0.018954263077075238
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 3,
+  "case": "L 100mH, DCR 60ohm (R3=1k, R4=10k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": true,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.00015126737760882137,
+    "std": 0.03117962077975788,
+    "p95": 0.06114526398524889
+   },
+   "ph": {
+    "mean": -0.0001609416511602485,
+    "std": 0.01630086205013714,
+    "p95": 0.03164664274995892
+   },
+   "L": {
+    "mean": -0.0002089864603008529,
+    "std": 0.03152568731647666,
+    "p95": 0.06098126652551883
+   },
+   "dR": {
+    "mean": 0.0007899412153923606,
+    "std": 0.09174116712364831,
+    "p95": 0.18777277309673437
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 3,
+  "case": "L 100mH, DCR 60ohm (R3=1k, R4=10k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": true,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.0007844227454910424,
+    "std": 0.0148671605434019,
+    "p95": 0.02658813831387995
+   },
+   "ph": {
+    "mean": -2.9270569037793918e-05,
+    "std": 0.002142287846690143,
+    "p95": 0.004173525892324508
+   },
+   "L": {
+    "mean": 0.0007746929467230323,
+    "std": 0.015525280113297372,
+    "p95": 0.027578058327166755
+   },
+   "dR": {
+    "mean": 0.0006295427178175998,
+    "std": 0.005018220675320908,
+    "p95": 0.010059660518871279
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 3,
+  "case": "L 100mH, DCR 60ohm (R3=1k, R4=10k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": true,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 2.0174145867457582e-05,
+    "std": 0.00044497678791540304,
+    "p95": 0.0008209023552385727
+   },
+   "ph": {
+    "mean": -5.5593147116666046e-05,
+    "std": 0.001227491361011056,
+    "p95": 0.0022645219065959856
+   },
+   "L": {
+    "mean": 1.6178067543837215e-06,
+    "std": 3.5801425830855994e-05,
+    "p95": 6.604908948659724e-05
+   },
+   "dR": {
+    "mean": 0.00031695358771602854,
+    "std": 0.006997667782842035,
+    "p95": 0.012909548709916046
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 3,
+  "case": "L 100mH, DCR 60ohm (R3=1k, R4=10k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": true,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.00019271310931561202,
+    "std": 0.0018704465130343173,
+    "p95": 0.0035885921193967705
+   },
+   "ph": {
+    "mean": -0.00044573025321962813,
+    "std": 0.004089125871803836,
+    "p95": 0.007934474975364455
+   },
+   "L": {
+    "mean": 4.3851307128006666e-05,
+    "std": 0.0007958054886415099,
+    "p95": 0.0015320404085794603
+   },
+   "dR": {
+    "mean": 0.0025599316255461987,
+    "std": 0.023465267299388807,
+    "p95": 0.04533828103506003
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 3,
+  "case": "L 100mH, DCR 60ohm (R3=1k, R4=10k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": true,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.00022539720853496093,
+    "std": 0.0001135645892580273,
+    "p95": 0.0004131800013151832
+   },
+   "ph": {
+    "mean": -0.0007020572689616992,
+    "std": 0.0003537142107805031,
+    "p95": 0.001286925508417548
+   },
+   "L": {
+    "mean": -8.639129011545065e-06,
+    "std": 4.352265330619118e-06,
+    "p95": 1.583533088878042e-05
+   },
+   "dR": {
+    "mean": 0.0039848211132036794,
+    "std": 0.0020076577183203307,
+    "p95": 0.0073044967177199995
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 3,
+  "case": "L 100mH, DCR 60ohm (R3=1k, R4=10k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": true,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.005649822097768098,
+    "std": 0.0022684795128872174,
+    "p95": 0.008982236593157998
+   },
+   "ph": {
+    "mean": 0.015326776819050937,
+    "std": 0.006163837830761968,
+    "p95": 0.024387353063861802
+   },
+   "L": {
+    "mean": -0.0005452288036282837,
+    "std": 0.000216896269609279,
+    "p95": 0.0008626576179643352
+   },
+   "dR": {
+    "mean": -0.087427928573151,
+    "std": 0.03515707730144212,
+    "p95": 0.1391055217647995
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 3,
+  "case": "L 100mH, DCR 60ohm (R3=1k, R4=10k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 4.174438572590589e-15,
+    "std": 2.4031560106985473e-14,
+    "p95": 4.440892098500626e-14
+   },
+   "ph": {
+    "mean": -2.8555294350359963e-15,
+    "std": 7.050526390729357e-15,
+    "p95": 1.5002781620154093e-14
+   },
+   "L": {
+    "mean": 3.9968028886505635e-15,
+    "std": 2.4266717481793596e-14,
+    "p95": 4.440892098500626e-14
+   },
+   "dR": {
+    "mean": 2.100364326906856e-14,
+    "std": 3.684258737701967e-14,
+    "p95": 7.815970093361102e-14
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 1,
+  "case": "C 4.7e-08F, ESR 3.39ohm (R4=330)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.002236406227736065,
+    "std": 0.15498438849532006,
+    "p95": 0.30415028459612675
+   },
+   "ph": {
+    "mean": -0.00017455503848054453,
+    "std": 0.006475804117757322,
+    "p95": 0.013077254638990144
+   },
+   "C": {
+    "mean": 0.002476222337086176,
+    "std": 0.15500789943825105,
+    "p95": 0.30426796650140675
+   },
+   "dtan": {
+    "mean": -3.046554623883043e-06,
+    "std": 0.00011302413239864024,
+    "p95": 0.0002282412148067364
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 1,
+  "case": "C 4.7e-08F, ESR 3.39ohm (R4=330)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": true,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.021443831647005408,
+    "std": 0.011006087118413893,
+    "p95": 0.039562851769202045
+   },
+   "ph": {
+    "mean": 0.0004599356049439918,
+    "std": 0.0001424736139345745,
+    "p95": 0.0006823499082364289
+   },
+   "C": {
+    "mean": 0.02145004327277946,
+    "std": 0.011010840109362768,
+    "p95": 0.03957892029088694
+   },
+   "dtan": {
+    "mean": 8.027392695794027e-06,
+    "std": 2.4866343028596853e-06,
+    "p95": 1.1909255598198176e-05
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 1,
+  "case": "C 4.7e-08F, ESR 3.39ohm (R4=330)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": true,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.007102858079370611,
+    "std": 0.05325096787657028,
+    "p95": 0.1042688234241762
+   },
+   "ph": {
+    "mean": -0.0009532883421291522,
+    "std": 0.02757026696367471,
+    "p95": 0.053344493502367925
+   },
+   "C": {
+    "mean": -0.007063405331920025,
+    "std": 0.05324135458885065,
+    "p95": 0.10415257025995772
+   },
+   "dtan": {
+    "mean": -1.6637905679782188e-05,
+    "std": 0.0004811921779425082,
+    "p95": 0.000931037985198186
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 1,
+  "case": "C 4.7e-08F, ESR 3.39ohm (R4=330)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": true,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.0011627326586212572,
+    "std": 0.015713553666015005,
+    "p95": 0.029748228820473118
+   },
+   "ph": {
+    "mean": 0.002406502436719683,
+    "std": 0.05256042339527077,
+    "p95": 0.09547345974613913
+   },
+   "C": {
+    "mean": 0.001209310472051195,
+    "std": 0.015762621108645923,
+    "p95": 0.029824245475307817
+   },
+   "dtan": {
+    "mean": 4.2001863988388354e-05,
+    "std": 0.0009173534124981806,
+    "p95": 0.0016663267915519196
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 1,
+  "case": "C 4.7e-08F, ESR 3.39ohm (R4=330)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": true,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 1.8238879069265578e-07,
+    "std": 0.00010654090132500162,
+    "p95": 0.0002033799433370786
+   },
+   "ph": {
+    "mean": -1.3044910027415896e-06,
+    "std": 0.0007302224851784241,
+    "p95": 0.0013937645090836904
+   },
+   "C": {
+    "mean": -1.7532441729528613e-07,
+    "std": 0.00010717926934649564,
+    "p95": 0.00020462623788741746
+   },
+   "dtan": {
+    "mean": -2.276758776938734e-08,
+    "std": 1.274478983788922e-05,
+    "p95": 2.432578606309059e-05
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 1,
+  "case": "C 4.7e-08F, ESR 3.39ohm (R4=330)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": true,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.0003110383983581766,
+    "std": 0.051670163512600176,
+    "p95": 0.09948223415372821
+   },
+   "ph": {
+    "mean": 0.0001591521402912724,
+    "std": 0.005178210799070047,
+    "p95": 0.009675818914125606
+   },
+   "C": {
+    "mean": -0.00028390545606806763,
+    "std": 0.05165998718976483,
+    "p95": 0.0993736967910513
+   },
+   "dtan": {
+    "mean": 2.777733689926685e-06,
+    "std": 9.037685205574103e-05,
+    "p95": 0.00016887494319750307
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 1,
+  "case": "C 4.7e-08F, ESR 3.39ohm (R4=330)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": true,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 7.113133236495983e-05,
+    "std": 3.590661479638339e-05,
+    "p95": 0.00013123834440076362
+   },
+   "ph": {
+    "mean": 0.0008051164363480121,
+    "std": 0.0004061675103178314,
+    "p95": 0.0014847554362534862
+   },
+   "C": {
+    "mean": -7.041629746749046e-05,
+    "std": 3.554201181419695e-05,
+    "p95": 0.0001299089030692979
+   },
+   "dtan": {
+    "mean": 1.4051936314568775e-05,
+    "std": 7.088962244732324e-06,
+    "p95": 2.5913877769549656e-05
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 1,
+  "case": "C 4.7e-08F, ESR 3.39ohm (R4=330)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": true,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.001421625430886131,
+    "std": 0.0006246622188740957,
+    "p95": 0.002407127936029374
+   },
+   "ph": {
+    "mean": -0.012337519325786738,
+    "std": 0.00466871785442842,
+    "p95": 0.019713192704725865
+   },
+   "C": {
+    "mean": -0.0014297187052147108,
+    "std": 0.0006269156235523988,
+    "p95": 0.002418307145735654
+   },
+   "dtan": {
+    "mean": -0.00021533036587187787,
+    "std": 8.148450518393695e-05,
+    "p95": 0.0003440601591802319
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 1,
+  "case": "C 4.7e-08F, ESR 3.39ohm (R4=330)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -1.1457501614131616e-14,
+    "std": 7.092423843036898e-14,
+    "p95": 1.4432899320127035e-13
+   },
+   "ph": {
+    "mean": -1.4709367004145374e-14,
+    "std": 8.554498156880508e-14,
+    "p95": 1.6014599239869524e-13
+   },
+   "C": {
+    "mean": 1.305622276959184e-14,
+    "std": 7.049197682760365e-14,
+    "p95": 1.5543122344752192e-13
+   },
+   "dtan": {
+    "mean": -2.5673864076369847e-16,
+    "std": 1.4930445236624692e-15,
+    "p95": 2.7950786216784924e-15
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 4,
+  "case": "C 1e-06F, ESR 0.318ohm (R4=10k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": true,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.01251921718762552,
+    "std": 0.19220877105529022,
+    "p95": 0.3593737222698234
+   },
+   "ph": {
+    "mean": 0.00429415618363417,
+    "std": 0.03955519525787381,
+    "p95": 0.08069332602404057
+   },
+   "C": {
+    "mean": -0.012118217264489495,
+    "std": 0.19221344280275507,
+    "p95": 0.36062095856363213
+   },
+   "dtan": {
+    "mean": 7.494777835517778e-05,
+    "std": 0.0006903696229247935,
+    "p95": 0.0014083663339703608
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 4,
+  "case": "C 1e-06F, ESR 0.318ohm (R4=10k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": true,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.011220835753861902,
+    "std": 0.004050896882599884,
+    "p95": 0.01759720110551477
+   },
+   "ph": {
+    "mean": 0.0018692740671952337,
+    "std": 0.0005950052175834443,
+    "p95": 0.002831765146953691
+   },
+   "C": {
+    "mean": -0.011216092765293872,
+    "std": 0.004048889427905371,
+    "p95": 0.017589072286709473
+   },
+   "dtan": {
+    "mean": 3.262502090664917e-05,
+    "std": 1.0384811210890083e-05,
+    "p95": 4.9423677364228975e-05
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 4,
+  "case": "C 1e-06F, ESR 0.318ohm (R4=10k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": true,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.0026749659993585695,
+    "std": 0.024598475241026263,
+    "p95": 0.05115980241556404
+   },
+   "ph": {
+    "mean": 0.0020600682222121336,
+    "std": 0.015040484707498464,
+    "p95": 0.03027209495697802
+   },
+   "C": {
+    "mean": 0.002688157188786544,
+    "std": 0.02460177775331145,
+    "p95": 0.05116222086258336
+   },
+   "dtan": {
+    "mean": 3.59550811620556e-05,
+    "std": 0.0002625062737896776,
+    "p95": 0.0005283485851388914
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 4,
+  "case": "C 1e-06F, ESR 0.318ohm (R4=10k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": true,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.00023860426177271243,
+    "std": 0.014900393462058398,
+    "p95": 0.028724108389767102
+   },
+   "ph": {
+    "mean": -0.00019828210307189592,
+    "std": 0.0024515920338366646,
+    "p95": 0.004720733470474935
+   },
+   "C": {
+    "mean": -0.00023664624881991614,
+    "std": 0.014903119577457852,
+    "p95": 0.02872552904298772
+   },
+   "dtan": {
+    "mean": -3.4606771818959244e-06,
+    "std": 4.27883951932978e-05,
+    "p95": 8.239241795899067e-05
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 4,
+  "case": "C 1e-06F, ESR 0.318ohm (R4=10k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": true,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -6.433010617357127e-06,
+    "std": 0.000305668751733113,
+    "p95": 0.0006332809533005078
+   },
+   "ph": {
+    "mean": -6.871416882722562e-05,
+    "std": 0.003198978110212174,
+    "p95": 0.006621979538209489
+   },
+   "C": {
+    "mean": 6.4693090156442425e-06,
+    "std": 0.00030006729525062587,
+    "p95": 0.0006210515891141853
+   },
+   "dtan": {
+    "mean": -1.1992865763951007e-06,
+    "std": 5.583275710720588e-05,
+    "p95": 0.00011557547538934524
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 4,
+  "case": "C 1e-06F, ESR 0.318ohm (R4=10k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": true,
+   "rret": false,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -3.80992458949958e-05,
+    "std": 0.002130729244389005,
+    "p95": 0.00426600591366233
+   },
+   "ph": {
+    "mean": -0.00015057662491006386,
+    "std": 0.004311293914273187,
+    "p95": 0.008180402452984728
+   },
+   "C": {
+    "mean": 3.8163888192999096e-05,
+    "std": 0.002126095721588198,
+    "p95": 0.00425292284195411
+   },
+   "dtan": {
+    "mean": -2.628054849131431e-06,
+    "std": 7.5246350267301e-05,
+    "p95": 0.0001427750982175711
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 4,
+  "case": "C 1e-06F, ESR 0.318ohm (R4=10k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": true,
+   "esr": false,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.0008753044027530521,
+    "std": 0.0004325093300964837,
+    "p95": 0.0015661638795044781
+   },
+   "ph": {
+    "mean": 0.001594337665473231,
+    "std": 0.0007878854457219617,
+    "p95": 0.0028529503699721757
+   },
+   "C": {
+    "mean": 0.0008781447352222749,
+    "std": 0.0004339291866412001,
+    "p95": 0.0015712918089205714
+   },
+   "dtan": {
+    "mean": 2.7826470452497682e-05,
+    "std": 1.3751209666463982e-05,
+    "p95": 4.979342966615251e-05
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 4,
+  "case": "C 1e-06F, ESR 0.318ohm (R4=10k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": true,
+   "link": false
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.001198287660815245,
+    "std": 0.0041128788371261596,
+    "p95": 0.00770337921335351
+   },
+   "ph": {
+    "mean": -0.01448575033232057,
+    "std": 0.005545198122496766,
+    "p95": 0.023301944268398107
+   },
+   "C": {
+    "mean": 0.0011768505084872594,
+    "std": 0.004117739715186769,
+    "p95": 0.0076863019499706624
+   },
+   "dtan": {
+    "mean": -0.00025282422523028686,
+    "std": 9.678201977313277e-05,
+    "p95": 0.000406695913313271
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 4,
+  "case": "C 1e-06F, ESR 0.318ohm (R4=10k)",
+  "scen": "S3",
+  "over": {},
+  "src": {
+   "tol": false,
+   "cp": false,
+   "noise": false,
+   "gmis": false,
+   "inl": false,
+   "phi": false,
+   "rret": false,
+   "esr": false,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -3.432809592140984e-14,
+    "std": 1.9356428095117874e-14,
+    "p95": 6.661338147750939e-14
+   },
+   "ph": {
+    "mean": 6.1925202990682265e-15,
+    "std": 8.134773085799664e-15,
+    "p95": 1.966425054791023e-14
+   },
+   "C": {
+    "mean": 3.814726312612038e-14,
+    "std": 1.8845785571493058e-14,
+    "p95": 6.661338147750939e-14
+   },
+   "dtan": {
+    "mean": 1.0805245587164335e-16,
+    "std": 1.419791419182384e-16,
+    "p95": 3.432584078089107e-16
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 2,
+  "case": "R 1kohm (R3=1k)",
+  "scen": "S3",
+  "over": {
+   "gmis": 0.0001
+  },
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.00341301638376752,
+    "std": 0.091811380122485,
+    "p95": 0.15977312297424273
+   },
+   "ph": {
+    "mean": 0.02440484760350684,
+    "std": 0.020940871146129397,
+    "p95": 0.05902343481647572
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 2,
+  "case": "R 1kohm (R3=1k)",
+  "scen": "S3",
+  "over": {
+   "gmis": 0.0005
+  },
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.0006002817146044225,
+    "std": 0.16939070317464866,
+    "p95": 0.3203088955204802
+   },
+   "ph": {
+    "mean": 0.0254804371261842,
+    "std": 0.023178317896972785,
+    "p95": 0.06533324144202592
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 2,
+  "case": "R 1kohm (R3=1k)",
+  "scen": "S3",
+  "over": {
+   "gmis": 0.002
+  },
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.016828407148223777,
+    "std": 0.5404746528126811,
+    "p95": 1.0919182150974491
+   },
+   "ph": {
+    "mean": 0.02399039978936599,
+    "std": 0.021295994404652505,
+    "p95": 0.057418144577088444
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 7,
+  "case": "R 100kohm (R3=100k)",
+  "scen": "S3",
+  "over": {
+   "gmis": 0.0001
+  },
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.008509452053556864,
+    "std": 0.09048915768591688,
+    "p95": 0.18379365364572067
+   },
+   "ph": {
+    "mean": -0.25465286775334195,
+    "std": 0.09312025254286718,
+    "p95": 0.4061096072980317
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 7,
+  "case": "R 100kohm (R3=100k)",
+  "scen": "S3",
+  "over": {
+   "gmis": 0.0005
+  },
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.010606819277951863,
+    "std": 0.17881989725811323,
+    "p95": 0.3349973439770698
+   },
+   "ph": {
+    "mean": -0.2478547393778281,
+    "std": 0.1015513533072347,
+    "p95": 0.3910233897521175
+   }
+  }
+ },
+ {
+  "bridge": "Wheatstone",
+  "idx": 7,
+  "case": "R 100kohm (R3=100k)",
+  "scen": "S3",
+  "over": {
+   "gmis": 0.002
+  },
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.04137480398325164,
+    "std": 0.6149381827239361,
+    "p95": 1.3225444774922306
+   },
+   "ph": {
+    "mean": -0.2533012641476051,
+    "std": 0.09419843266105718,
+    "p95": 0.40046302449533444
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 0,
+  "case": "R 1ohm (Rs=1)",
+  "scen": "S3",
+  "over": {
+   "gmis": 0.0001
+  },
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.22626631515723294,
+    "std": 1.5950921713340684,
+    "p95": 3.346396948617394
+   },
+   "ph": {
+    "mean": -0.05623235066069853,
+    "std": 0.8453490451382376,
+    "p95": 1.6004371054672133
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 0,
+  "case": "R 1ohm (Rs=1)",
+  "scen": "S3",
+  "over": {
+   "gmis": 0.0005
+  },
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.002445026916624819,
+    "std": 1.616933637938663,
+    "p95": 3.0306695734614477
+   },
+   "ph": {
+    "mean": -0.02438528799312288,
+    "std": 0.8972976777982531,
+    "p95": 1.7036023897020243
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 0,
+  "case": "R 1ohm (Rs=1)",
+  "scen": "S3",
+  "over": {
+   "gmis": 0.002
+  },
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.059532398551009925,
+    "std": 1.6189816432321922,
+    "p95": 3.1480670350768403
+   },
+   "ph": {
+    "mean": -0.07922410179042778,
+    "std": 0.8814267236714485,
+    "p95": 1.7084502711116818
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 3,
+  "case": "R 10ohm (Rs=10)",
+  "scen": "S3",
+  "over": {
+   "gmis": 0.0001
+  },
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.00322255167212786,
+    "std": 0.2821714262486285,
+    "p95": 0.5468247154506474
+   },
+   "ph": {
+    "mean": 0.005796834653848,
+    "std": 0.10397359380741208,
+    "p95": 0.19255575991523632
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 3,
+  "case": "R 10ohm (Rs=10)",
+  "scen": "S3",
+  "over": {
+   "gmis": 0.0005
+  },
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.0007871231641327192,
+    "std": 0.31176384825558606,
+    "p95": 0.5896696709579505
+   },
+   "ph": {
+    "mean": 0.00360373756964316,
+    "std": 0.09741452408269058,
+    "p95": 0.1937825830776709
+   }
+  }
+ },
+ {
+  "bridge": "Kelvin",
+  "idx": 3,
+  "case": "R 10ohm (Rs=10)",
+  "scen": "S3",
+  "over": {
+   "gmis": 0.002
+  },
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.0026928687395820104,
+    "std": 0.5926724672277777,
+    "p95": 1.2063702884407888
+   },
+   "ph": {
+    "mean": 0.002302974141016356,
+    "std": 0.1095806066624409,
+    "p95": 0.21028125567464231
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 0,
+  "case": "L 10mH, DCR 8ohm (R3=100, R4=10k)",
+  "scen": "S3",
+  "over": {
+   "gmis": 0.0001
+  },
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.01202168041579359,
+    "std": 0.3056324836306691,
+    "p95": 0.5969844488548663
+   },
+   "ph": {
+    "mean": 0.01810720665228903,
+    "std": 0.14499951167991212,
+    "p95": 0.27949771148361224
+   },
+   "L": {
+    "mean": -0.004275818440082802,
+    "std": 0.31967850035103895,
+    "p95": 0.614096025309675
+   },
+   "dR": {
+    "mean": -0.010943378363343928,
+    "std": 0.0803781269122067,
+    "p95": 0.1559660062409399
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 0,
+  "case": "L 10mH, DCR 8ohm (R3=100, R4=10k)",
+  "scen": "S3",
+  "over": {
+   "gmis": 0.0005
+  },
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.013819226266180396,
+    "std": 0.30771325708051406,
+    "p95": 0.6082540188164768
+   },
+   "ph": {
+    "mean": 0.023965619269821617,
+    "std": 0.1383976540283044,
+    "p95": 0.2765461207074009
+   },
+   "L": {
+    "mean": -0.0034458720908702835,
+    "std": 0.32098636836973626,
+    "p95": 0.6354641001248907
+   },
+   "dR": {
+    "mean": -0.014296408739094534,
+    "std": 0.07689978355128291,
+    "p95": 0.15283527439221992
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 0,
+  "case": "L 10mH, DCR 8ohm (R3=100, R4=10k)",
+  "scen": "S3",
+  "over": {
+   "gmis": 0.002
+  },
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.04536252628789756,
+    "std": 0.4063695665109494,
+    "p95": 0.8350429556291925
+   },
+   "ph": {
+    "mean": 0.018748121762546678,
+    "std": 0.14835298326527394,
+    "p95": 0.29642698243975346
+   },
+   "L": {
+    "mean": -0.037327331805521564,
+    "std": 0.4226688125895545,
+    "p95": 0.8595445102861765
+   },
+   "dR": {
+    "mean": -0.01398755577654222,
+    "std": 0.08223573564304282,
+    "p95": 0.1703740004697216
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 3,
+  "case": "L 100mH, DCR 60ohm (R3=1k, R4=10k)",
+  "scen": "S3",
+  "over": {
+   "gmis": 0.0001
+  },
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.009789485808843557,
+    "std": 0.20142021687610934,
+    "p95": 0.39814510198086067
+   },
+   "ph": {
+    "mean": 0.016338453130035714,
+    "std": 0.03019323031867575,
+    "p95": 0.06462079440574213
+   },
+   "L": {
+    "mean": -0.004348420479498349,
+    "std": 0.20813672923237045,
+    "p95": 0.4087385105366231
+   },
+   "dR": {
+    "mean": -0.09568119297855714,
+    "std": 0.12593651305433412,
+    "p95": 0.2758270198594242
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 3,
+  "case": "L 100mH, DCR 60ohm (R3=1k, R4=10k)",
+  "scen": "S3",
+  "over": {
+   "gmis": 0.0005
+  },
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.02783677897439239,
+    "std": 0.19342502819435842,
+    "p95": 0.4142463908671672
+   },
+   "ph": {
+    "mean": 0.016329899730276196,
+    "std": 0.030051809881830958,
+    "p95": 0.06890497443586308
+   },
+   "L": {
+    "mean": -0.022400231758753986,
+    "std": 0.19999699267456028,
+    "p95": 0.43357752494548646
+   },
+   "dR": {
+    "mean": -0.10643362578249468,
+    "std": 0.12684325343341343,
+    "p95": 0.32760145479475844
+   }
+  }
+ },
+ {
+  "bridge": "Maxwell-Wien",
+  "idx": 3,
+  "case": "L 100mH, DCR 60ohm (R3=1k, R4=10k)",
+  "scen": "S3",
+  "over": {
+   "gmis": 0.002
+  },
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.052571501299022036,
+    "std": 0.3764543371671563,
+    "p95": 0.7407017801526276
+   },
+   "ph": {
+    "mean": 0.011503706598945031,
+    "std": 0.058656627136112846,
+    "p95": 0.11547100396608448
+   },
+   "L": {
+    "mean": -0.048731279184946706,
+    "std": 0.3930591735550914,
+    "p95": 0.7698739759839145
+   },
+   "dR": {
+    "mean": -0.0956386660573847,
+    "std": 0.17893990028959902,
+    "p95": 0.36930917362568927
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 1,
+  "case": "C 4.7e-08F, ESR 3.39ohm (R4=330)",
+  "scen": "S3",
+  "over": {
+   "gmis": 0.0001
+  },
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.010212386098729497,
+    "std": 0.16892160689115804,
+    "p95": 0.35009772661930166
+   },
+   "ph": {
+    "mean": -0.012419972912871589,
+    "std": 0.06361472243366907,
+    "p95": 0.1232781999203396
+   },
+   "C": {
+    "mean": 0.010550672117021608,
+    "std": 0.16898352580918524,
+    "p95": 0.3500812371827705
+   },
+   "dtan": {
+    "mean": -0.00021676885594809059,
+    "std": 0.0011102879840383345,
+    "p95": 0.0021516146592957626
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 1,
+  "case": "C 4.7e-08F, ESR 3.39ohm (R4=330)",
+  "scen": "S3",
+  "over": {
+   "gmis": 0.0005
+  },
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.028245935280923274,
+    "std": 0.19585445640076496,
+    "p95": 0.38382467088755756
+   },
+   "ph": {
+    "mean": -0.011235204310003155,
+    "std": 0.28235093412139306,
+    "p95": 0.547324991558926
+   },
+   "C": {
+    "mean": 0.029837980620404145,
+    "std": 0.19587843380151373,
+    "p95": 0.38298812378046104
+   },
+   "dtan": {
+    "mean": -0.000196088523129963,
+    "std": 0.004928065152696389,
+    "p95": 0.009552911311147593
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 1,
+  "case": "C 4.7e-08F, ESR 3.39ohm (R4=330)",
+  "scen": "S3",
+  "over": {
+   "gmis": 0.002
+  },
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.05676515608484945,
+    "std": 0.4075931049747539,
+    "p95": 0.7540535859736951
+   },
+   "ph": {
+    "mean": 0.05060827580353562,
+    "std": 1.1085834047819294,
+    "p95": 2.24437102450944
+   },
+   "C": {
+    "mean": 0.07724721047608465,
+    "std": 0.420276335537772,
+    "p95": 0.8109704107779545
+   },
+   "dtan": {
+    "mean": 0.0008844005681172844,
+    "std": 0.019356481145089234,
+    "p95": 0.039191823778681786
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 4,
+  "case": "C 1e-06F, ESR 0.318ohm (R4=10k)",
+  "scen": "S3",
+  "over": {
+   "gmis": 0.0001
+  },
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.021519431357656594,
+    "std": 0.1854697246714886,
+    "p95": 0.3606314952404143
+   },
+   "ph": {
+    "mean": -0.004377818437312799,
+    "std": 0.04711184761197392,
+    "p95": 0.09118238794674899
+   },
+   "C": {
+    "mean": -0.021146136024114307,
+    "std": 0.18536707208002615,
+    "p95": 0.3620077304293378
+   },
+   "dtan": {
+    "mean": -7.640677483206796e-05,
+    "std": 0.000822258256498706,
+    "p95": 0.0015914361091644532
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 4,
+  "case": "C 1e-06F, ESR 0.318ohm (R4=10k)",
+  "scen": "S3",
+  "over": {
+   "gmis": 0.0005
+  },
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": 0.004567082848188653,
+    "std": 0.17942857370149257,
+    "p95": 0.34848938095792814
+   },
+   "ph": {
+    "mean": -0.011618712881396468,
+    "std": 0.04347861187985769,
+    "p95": 0.09036228092505505
+   },
+   "C": {
+    "mean": -0.004235777917795325,
+    "std": 0.17942813561681334,
+    "p95": 0.34720381099651143
+   },
+   "dtan": {
+    "mean": -0.00020278452570873966,
+    "std": 0.0007588457919331698,
+    "p95": 0.0015771197214053932
+   }
+  }
+ },
+ {
+  "bridge": "Schering",
+  "idx": 4,
+  "case": "C 1e-06F, ESR 0.318ohm (R4=10k)",
+  "scen": "S3",
+  "over": {
+   "gmis": 0.002
+  },
+  "src": {
+   "tol": true,
+   "cp": true,
+   "noise": true,
+   "gmis": true,
+   "inl": true,
+   "phi": true,
+   "rret": true,
+   "esr": true,
+   "link": true
+  },
+  "bad": 0,
+  "stats": {
+   "mag": {
+    "mean": -0.014577494078523356,
+    "std": 0.3319562940312883,
+    "p95": 0.6390306599369654
+   },
+   "ph": {
+    "mean": -0.008206710522754,
+    "std": 0.06583220281682843,
+    "p95": 0.12012894500948061
+   },
+   "C": {
+    "mean": 0.015729871752466984,
+    "std": 0.33198849961097665,
+    "p95": 0.6421389236538265
+   },
+   "dtan": {
+    "mean": -0.00014323312038035007,
+    "std": 0.0011489908614458115,
+    "p95": 0.0020966513911475295
+   }
+  }
+ }
+]
