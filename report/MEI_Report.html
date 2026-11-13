@@ -52,25 +52,30 @@ Name: Prabhuparth Choudhar &nbsp;|&nbsp; Roll No.: 24EE01065 &nbsp;|&nbsp; Date:
 <h2>4. Simulation</h2>
 <h3>4.1 LTspice model</h3>
 <img src="fig/sim_circuit.png" width="640" height="332">
-<p class="cap">Figure 2. Circuit as simulated in LTspice (file <i>simulation/ltspice/Model1.asc</i>). Full-size drawing: <i>simulation/ltspice/mei_circuit_ltspice.pdf</i>.</p>
+<p class="cap">Figure 2. Circuit as simulated in LTspice (file <i>simulation/ltspice/Impedence_Measurement.asc</i>). Full-size drawing: <i>simulation/ltspice/mei_circuit_ltspice.pdf</i>.</p>
 <ul>
 <li>The Pico pins are replaced by sources: V<sub>A</sub> = 1.65 V DC + 0.9 V AC at 500 Hz, V<sub>B</sub> = 1.65 V DC, each with 40 &Omega; pin resistance. ADC pins are plain nodes (<i>adc0</i>, <i>adc1</i>), with no sampling model.</li>
 <li>Same filters, buffers, R<sub>ref</sub> and ADC input networks as the hardware. V<sub>dd</sub> = 3.3 V.</li>
 <li>Op-amp: simple macro-model (<i>.subckt opamp2</i>): A<sub>vol</sub> = 100 k, GBW = 1 MHz, slew 0.6 V/&micro;s, output swing within 25 mV of the rails, R<sub>out</sub> = 100 &Omega;.</li>
-<li>Test DUT: R<sub>d</sub> = 100 &Omega; in series with L<sub>d</sub> = 10 mH. True Z<sub>x</sub> = 100 + j31.416 &Omega; at 500 Hz.</li>
-<li>Analysis: <i>.ac lin 1 500 500</i>, stepped over R<sub>ref</sub> = 100, 1 k, 10 k, 100 k. Z<sub>x</sub> is computed from the results as R<sub>ref</sub> &middot; V(adc1) / (V(adc0) &minus; V(adc1)).</li>
+<li>DUT: R<sub>d</sub> in series with L<sub>d</sub> (a resistor uses L<sub>d</sub> = 1 nH). Seven cases are stepped with <i>.step param case 1 7 1</i>; R<sub>ref</sub>, R<sub>d</sub> and L<sub>d</sub> come from a table in the schematic. Cases 2 to 6 are the resistors used in hardware runs 1, 4, 6, 9, 11.</li>
+<li>Analysis: <i>.ac list 125 250 500 1000</i>. Z<sub>x</sub> is computed from the results as R<sub>ref</sub> &middot; V(adc1) / (V(adc0) &minus; V(adc1)) with <i>simulation/ltspice/extract_z.py</i>, which reads the <i>.raw</i> file and writes <i>results.csv</i>.</li>
 </ul>
 
-<h3>4.2 LTspice results (500 Hz, from <i>Model1.raw</i>)</h3>
+<h3>4.2 LTspice results</h3>
+<p>Results at 500 Hz. The full table (all seven cases at 125, 250, 500 and 1000 Hz, true and computed R and X) is in <i>simulation/ltspice/results.csv</i>.</p>
 <table width="100%" border="1" cellpadding="4" cellspacing="0">
-<tr><th>R<sub>ref</sub></th><th>|V(adc0)|</th><th>|V(adc1)|</th><th>Z<sub>x</sub> computed (&Omega;)</th><th>R error</th><th>X error</th></tr>
-<tr><td>100 &Omega;</td><td>0.6820 V</td><td>0.3531 V</td><td>100.047 + j31.370</td><td>+0.047 %</td><td>&minus;0.15 %</td></tr>
-<tr><td>1 k&Omega;</td><td>0.6820 V</td><td>0.0650 V</td><td>100.020 + j31.411</td><td>+0.020 %</td><td>&minus;0.016 %</td></tr>
-<tr><td>10 k&Omega;</td><td>0.6820 V</td><td>0.0071 V</td><td>100.017 + j31.415</td><td>+0.017 %</td><td>&minus;0.003 %</td></tr>
-<tr><td>100 k&Omega;</td><td>0.6820 V</td><td>0.0007 V</td><td>100.017 + j31.416</td><td>+0.017 %</td><td>0.000 %</td></tr>
+<tr><th>Case</th><th>DUT (true)</th><th>R<sub>ref</sub></th><th>|V(adc1)|</th><th>Z<sub>x</sub> computed (&Omega;)</th><th>R error</th></tr>
+<tr><td>1</td><td>100 &Omega; + 10 mH</td><td>100 &Omega;</td><td>353 mV</td><td>100.05 + j31.37</td><td>+0.0473 %</td></tr>
+<tr><td>2</td><td>6.15 k&Omega;</td><td>9.9 k&Omega;</td><td>261 mV</td><td>6149.90 &minus; j4.94</td><td>&minus;0.0016 %</td></tr>
+<tr><td>3</td><td>4.7 k&Omega;</td><td>9.9 k&Omega;</td><td>220 mV</td><td>4699.93 &minus; j3.42</td><td>&minus;0.0015 %</td></tr>
+<tr><td>4</td><td>2.664 k&Omega;</td><td>9.9 k&Omega;</td><td>145 mV</td><td>2663.97 &minus; j1.64</td><td>&minus;0.0012 %</td></tr>
+<tr><td>5</td><td>220 &Omega;</td><td>1 k&Omega;</td><td>123 mV</td><td>220.00 &minus; j0.08</td><td>&minus;0.0003 %</td></tr>
+<tr><td>6</td><td>2 k&Omega;</td><td>1 k&Omega;</td><td>455 mV</td><td>1999.94 &minus; j2.95</td><td>&minus;0.0031 %</td></tr>
+<tr><td>7</td><td>1 k&Omega; + 100 mH</td><td>9.9 k&Omega;</td><td>66 mV</td><td>1000.18 + j313.66</td><td>+0.0180 %</td></tr>
 </table>
-<p>True value: 100 + j31.416 &Omega;. Remaining error is the finite op-amp bandwidth (GBW 1 MHz) and the 100 &Omega; + 1 nF ADC input filters. The error is largest for R<sub>ref</sub> = 100 &Omega;.</p>
-<p>The same table shows the signal level problem: V(adc0) is 0.68 V peak, not the 0.9 V set at the source, because the two-stage RC filter attenuates 500 Hz (gain about 0.77). With R<sub>ref</sub> = 100 k&Omega; and Z<sub>x</sub> = 105 &Omega;, V(adc1) is 0.7 mV, below the ADC noise of about 0.5 mV rms for a single sample. In the simulation there is no ADC noise, so this does not show up in the numbers. R<sub>ref</sub> should be chosen close to |Z<sub>x</sub>|.</p>
+<p>R error is small in every case (largest +0.19 % for case 1 at 1 kHz). Over all 28 points the error of Z<sub>x</sub> is under 0.3 % of |Z<sub>x</sub>|; the largest is case 6 at 1 kHz (X = &minus;5.9 &Omega; on 2 k&Omega;). Remaining error comes from the finite op-amp bandwidth (GBW 1 MHz) and the 100 &Omega; + 1 nF ADC input filters.</p>
+<p><b>Reactance of the resistor cases.</b> In cases 2 to 6 the true reactance is about zero (1 nH), but the computed X is negative and grows with frequency and with R (for 6.15 k&Omega;: &minus;1.2 &Omega; at 125 Hz, &minus;9.9 &Omega; at 1 kHz). This is a phase error of about &minus;2&times;10<sup>&minus;4</sup> rad at 125 Hz, a delay of about 0.25 &micro;s between the adc0 and adc1 paths. It is probably the lag of the extra sense buffer (U3, GBW 1 MHz, about 0.16 &micro;s) in the adc1 path; I did not test this separately. The 19 &micro;s sampling skew of the real ADC is much larger and is corrected in firmware with timestamps.</p>
+<p>Signal level: V(adc0) is 0.68 V peak, not the 0.9 V set at the source, because the two-stage RC filter attenuates 500 Hz (gain about 0.77). V(adc1) is smallest when R<sub>ref</sub> is much larger than |Z<sub>x</sub>| (case 7: 66 mV peak with R<sub>ref</sub> 9.9 k&Omega;, |Z<sub>x</sub>| about 1.05 k&Omega;). The simulation has no ADC noise (hardware: about 0.5 mV rms per sample), so R<sub>ref</sub> should be chosen close to |Z<sub>x</sub>|.</p>
 
 <h3>4.3 Other simulations done</h3>
 <ul>
@@ -131,12 +136,21 @@ Name: Prabhuparth Choudhar &nbsp;|&nbsp; Roll No.: 24EE01065 &nbsp;|&nbsp; Date:
 <h2>6. Simulation against hardware</h2>
 <table width="100%" border="1" cellpadding="4" cellspacing="0">
 <tr><th></th><th>LTspice</th><th>Hardware</th></tr>
-<tr><td>Resistor / R+L accuracy</td><td>0.02 % to 0.15 % (ideal parts, no noise)</td><td>about 2 % (calibrated range)</td></tr>
+<tr><td>Resistor / R+L accuracy</td><td>under 0.3 % of |Z<sub>x</sub>| (ideal parts, no noise)</td><td>about 2 % (calibrated range)</td></tr>
 <tr><td>Offset in Z<sub>x</sub> path</td><td>none</td><td>25 to 30 &Omega; before calibration</td></tr>
-<tr><td>Open-circuit H at 1 kHz</td><td>about 1 (op-amp lag only)</td><td>0.953 before calibration</td></tr>
 <tr><td>ADC</td><td>ideal nodes</td><td>offset 4.6 mV, noise 0.5 mV, channel gain mismatch up to 0.08 %, sampling skew 19 &micro;s</td></tr>
 <tr><td>Parts</td><td>exact values</td><td>about 1 % resistors measured by multimeter, breadboard contacts</td></tr>
 </table>
+<p>Same parts, simulation (500 Hz) against hardware:</p>
+<table width="100%" border="1" cellpadding="4" cellspacing="0">
+<tr><th>Part (nominal)</th><th>R<sub>ref</sub></th><th>Hardware run</th><th>Hardware reading</th><th>Hardware &Delta;</th><th>Sim case</th><th>Sim reading</th><th>Sim &Delta;</th></tr>
+<tr><td>6.15 k&Omega;</td><td>9.9 k&Omega;</td><td>1</td><td>6039.55 &Omega;</td><td>&minus;1.8 %</td><td>2</td><td>6149.90 &Omega;</td><td>&minus;0.0016 %</td></tr>
+<tr><td>4.7 k&Omega;</td><td>9.9 k&Omega;</td><td>4</td><td>4723.35 &Omega;</td><td>+0.5 %</td><td>3</td><td>4699.93 &Omega;</td><td>&minus;0.0015 %</td></tr>
+<tr><td>2.664 k&Omega;</td><td>9.9 k&Omega;</td><td>6</td><td>2648.34 &Omega;</td><td>&minus;0.6 %</td><td>4</td><td>2663.97 &Omega;</td><td>&minus;0.0012 %</td></tr>
+<tr><td>220 &Omega;</td><td>1 k&Omega;</td><td>9</td><td>215.43 &Omega;</td><td>&minus;2.1 % (uncalibrated)</td><td>5</td><td>220.00 &Omega;</td><td>&minus;0.0003 %</td></tr>
+<tr><td>2 k&Omega;</td><td>1 k&Omega;</td><td>11</td><td>1891.91 &Omega;</td><td>&minus;5.4 % (uncalibrated)</td><td>6</td><td>1999.94 &Omega;</td><td>&minus;0.0031 %</td></tr>
+</table>
+<p class="small">Hardware nominal values were not all measured with a multimeter (see 5.2), so part of the hardware &Delta; may be the part, not the instrument.</p>
 <p>The simulation gives the lower limit set by the circuit itself. The difference to the hardware (about 2 %) is from component tolerance, the series offset, the AC amplitude droop at the open circuit, ADC effects and the uncertainty of the calibration standards, which are not in the LTspice model. The simulation did not predict the 25 to 30 &Omega; offset or the amplitude droop. The effect of capacitor losses was not simulated.</p>
 
 <h2>7. Limitations</h2>
@@ -146,15 +160,15 @@ Name: Prabhuparth Choudhar &nbsp;|&nbsp; Roll No.: 24EE01065 &nbsp;|&nbsp; Date:
 </ul>
 
 <h2>8. Conclusion</h2>
-<p>A divider-type impedance meter was simulated in LTspice (error under 0.15 % with ideal parts) and built on a breadboard. After calibration it measures resistors to about 2 % on the 9.9 k&Omega; range and identifies R, R&#8741;C and R+C. Capacitor values and the other ranges still need verification.</p>
+<p>A divider-type impedance meter was simulated in LTspice (error under 0.3 % with ideal parts) and built on a breadboard. After calibration it measures resistors to about 2 % on the 9.9 k&Omega; range and identifies R, R&#8741;C and R+C. Capacitor values and the other ranges still need verification.</p>
 
 <h2>Appendix: files</h2>
 <ul class="small">
-<li><i>simulation/ltspice/</i>: <i>Model1.asc</i>, <i>Model1.raw</i>, <i>Model1.log</i> (LTspice schematic, results, log).</li>
+<li><i>simulation/ltspice/</i>: <i>Impedence_Measurement.asc</i> (schematic), <i>.raw</i> and <i>.log</i> (results), <i>extract_z.py</i> (reads the raw file), <i>results.csv</i> (table of Z<sub>x</sub>).</li>
 <li><i>hardware/</i>: hardware circuit drawing.</li>
 <li><i>firmware/</i>: firmware, host tool, calibration, bring-up log (<i>NOTES.md</i>).</li>
 <li><i>simulation/stage0/</i>, <i>simulation/cosim/</i>: Stage 0 and ngspice co-simulation.</li>
-<li>Code repository: [GitHub link]</li>
+<li>Code repository: https://github.com/prabhuparth442/MEI_Impedance_Meter</li>
 <li><i>MEI_Impedance_Meter_Demo.mp4</i> (4 min 3 s, submitted separately; captions in <i>video/</i>): side-by-side breadboard and terminal, the 12 bench runs, with captions.</li>
 </ul>
 </body></html>
